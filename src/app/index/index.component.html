@@ -1,28 +1,40 @@
-<main [ngStyle]="{'padding': '2rem', 'text-align': 'center'}">
-  <div [ngStyle]="{'text-align': 'center', 'margin-top': '1.5rem', 'margin-bottom': '2rem'}" [ngStyle.lt-md]="{'margin-top': '5rem', 'margin-bottom': '3rem'}">
-    <img src="assets/logo.jpg" [ngStyle]="{'width': '25%'}" [ngStyle.lt-md]="{'width': '50%'}">
-  </div>
+<form [formGroup]="signIn">
+  <main [ngStyle]="{'padding': '2rem', 'text-align': 'center'}">
+    <div [ngStyle]="{'text-align': 'center', 'margin-top': '0rem', 'margin-bottom': '2rem'}" [ngStyle.lt-md]="{'margin-top': '5rem', 'margin-bottom': '3rem'}">
+      <img src="assets/logo.jpg" [ngStyle]="{'width': '25%'}" [ngStyle.lt-md]="{'width': '50%'}">
+    </div>
 
-  <div fxLayout fxLayoutGap="10px" fxLayoutAlign="center">
-    <mat-form-field fxFlex="5" fxFlex.lt-md="20" appearance="outline" [ngStyle]="{'margin-right': '1rem'}">
-      <input matInput value="+91" disabled style="color: black">
-    </mat-form-field>
+    <div fxLayout fxLayoutGap="10px" fxLayoutAlign="center">
+      <mat-form-field fxFlex="5" fxFlex.lt-md="20" appearance="outline" [ngStyle]="{'margin-right': '1rem'}">
+        <input matInput style="color: black" formControlName="countryCode">
+      </mat-form-field>
 
-    <mat-form-field fxFlex="20" fxFlex.lt-md="60" appearance="outline">
-      <mat-label>Mobile Number</mat-label>
-      <input matInput placeholder="10 digit number">
-    </mat-form-field> <br>
-  </div>
+      <mat-form-field fxFlex="20" fxFlex.lt-md="60" appearance="outline">
+        <mat-label>Mobile Number</mat-label>
+        <input matInput placeholder="" formControlName="mobileNumber" pattern="[6789][0-9]{9}" required>
+        <mat-error *ngIf="signIn_formErrors.mobileNumber">{{signIn_formErrors.mobileNumber}}</mat-error>
+        <mat-hint>10 digit mobile number without prefix</mat-hint>
+      </mat-form-field> <br>
+    </div>
 
+    <div [fxHide]="windowRef.confirmationResult" id="recaptcha-container" fxLayoutAlign="center" style="margin: 1rem 0" [ngStyle.lt-md]="{'margin':'2rem 0'}"></div>
+
+    <div [fxHide]="windowRef.confirmationResult" fxLayout fxLayoutAlign="center" fxLayoutGap="1rem">
+      <button type="button" mat-raised-button color="accent" style="padding: 0.5rem 1.5rem;" [ngStyle.lt-md]="{'padding':'0.5rem 1.5rem', 'margin': '5px'}" (click)="sendLoginCode()"[disabled]="!signIn.valid">Send OTP</button>
+    </div>
+
+  </main>
+</form>
+
+<form *ngIf="windowRef.confirmationResult" [formGroup]="sendOTP">
   <div fxLayout fxLayoutGap="10px" fxLayoutAlign="center">
     <mat-form-field appearance="outline" fxFlex="10" fxFlex.lt-md="50">
       <mat-label>OTP</mat-label>
-      <input matInput placeholder="Enter OTP">
+      <input matInput placeholder="Enter OTP" formControlName="OTP" pattern="[0-9]{6}" required>
+      <mat-error *ngIf="sendOTP_formErrors.OTP">{{sendOTP_formErrors.OTP}}</mat-error>
     </mat-form-field>
   </div>
-
   <div fxLayout fxLayoutAlign="center" fxLayoutGap="1rem">
-    <button mat-raised-button color="accent" style="padding: 0.5rem 1.5rem; background-color: #218838" [ngStyle.lt-md]="{'padding':'', 'margin': '5px'}">Login</button>
-    <button mat-button [routerLink]="['/register']" style="padding: 0.25rem 1rem" [ngStyle.lt-md]="{'padding':''}">New here ? Register!</button>
+    <button mat-raised-button color="accent" style="padding: 0.5rem 1.5rem;" [ngStyle.lt-md]="{'padding':'0.5rem 1.5rem', 'margin': '5px'}" (click)="verifyLoginCode()" [disabled]="!sendOTP.valid">Login</button>
   </div>
-</main>
+</form>
