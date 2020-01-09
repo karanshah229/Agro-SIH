@@ -1,0 +1,33 @@
+<div [ngStyle]="{'background-color':'#292929', 'color': 'white', 'padding': '1.5rem', 'font-size': '1.5rem', 'margin-bottom': '4rem'}">Join Us</div>
+
+<div [ngStyle]="{'text-align':'center'}" fxLayout="column">
+  <div fxLayout="column" fxLayoutGap="1rem">
+    <h2>Steps: </h2>
+    <div fxLayout="column" fxLayoutGap="5px">
+      <div>1. Enter 10 digit phone number without country code</div>
+      <div>2. Enter OTP code received</div>
+    </div><br><br>
+  </div>
+
+  <div fxLayout fxLayoutGap="10px" fxLayoutAlign="center">
+    <mat-form-field fxFlex="5" fxFlex.lt-md="15" appearance="outline" [ngStyle]="{'margin-right': '1rem'}">
+      <input matInput value="+91" disabled style="color: black">
+    </mat-form-field>
+
+    <mat-form-field fxFlex="20" fxFlex.lt-md="60" appearance="outline">
+      <mat-label>Mobile Number</mat-label>
+      <input matInput placeholder="10 digit number">
+    </mat-form-field>
+  </div>
+
+  <div fxLayout fxLayoutGap="10px" fxLayoutAlign="center start" fxLayout.lt-md="column" fxLayoutAlign.lt-md="center center">
+    <mat-form-field appearance="outline" fxFlex="10" fxFlex.lt-md="50">
+      <mat-label>OTP</mat-label>
+      <input matInput placeholder="Enter OTP">
+    </mat-form-field>
+    <span>
+      <button mat-raised-button color="accent" style="padding: 0.5rem 1.5rem; background-color: #218838; margin: 5px;"  [ngStyle.lt-md]="{'padding':'0.5rem 1.5rem', 'margin': '5px'}">Register!</button>
+    </span>
+  </div>
+
+</div>

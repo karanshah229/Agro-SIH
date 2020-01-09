@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/theming';
+@include mat-core();
+
+$primary: mat-palette($mat-grey, A900, A400, A950);
+$accent: mat-palette($mat-blue, A700, A500, A900);
+$warn: mat-palette($mat-red);
+
+$theme: mat-light-theme($primary, $accent, $warn);
+
+@include angular-material-theme($theme);
+
+html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+a, a:visited, a:link, a:active {
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+<main [ngStyle]="{'padding': '2rem', 'text-align': 'center'}">
+  <div [ngStyle]="{'text-align': 'center', 'margin-top': '1.5rem', 'margin-bottom': '2rem'}" [ngStyle.lt-md]="{'margin-top': '5rem', 'margin-bottom': '3rem'}">
+    <img src="assets/logo.jpg" [ngStyle]="{'width': '25%'}" [ngStyle.lt-md]="{'width': '50%'}">
+  </div>
+
+  <div fxLayout fxLayoutGap="10px" fxLayoutAlign="center">
+    <mat-form-field fxFlex="5" fxFlex.lt-md="20" appearance="outline" [ngStyle]="{'margin-right': '1rem'}">
+      <input matInput value="+91" disabled style="color: black">
+    </mat-form-field>
+
+    <mat-form-field fxFlex="20" fxFlex.lt-md="60" appearance="outline">
+      <mat-label>Mobile Number</mat-label>
+      <input matInput placeholder="10 digit number">
+    </mat-form-field> <br>
+  </div>
+
+  <div fxLayout fxLayoutGap="10px" fxLayoutAlign="center">
+    <mat-form-field appearance="outline" fxFlex="10" fxFlex.lt-md="50">
+      <mat-label>OTP</mat-label>
+      <input matInput placeholder="Enter OTP">
+    </mat-form-field>
+  </div>
+
+  <div fxLayout fxLayoutAlign="center" fxLayoutGap="1rem">
+    <button mat-raised-button color="accent" style="padding: 0.5rem 1.5rem; background-color: #218838" [ngStyle.lt-md]="{'padding':'', 'margin': '5px'}">Login</button>
+    <button mat-button [routerLink]="['/register']" style="padding: 0.25rem 1rem" [ngStyle.lt-md]="{'padding':''}">New here ? Register!</button>
+  </div>
+</main>
