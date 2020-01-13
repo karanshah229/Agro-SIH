@@ -7,6 +7,8 @@ import { AngularFirestore } from '@angular/fire/firestore';
 import { AngularFireAuth } from '@angular/fire/auth';
 import { MatSnackBar } from '@angular/material';
 import { Router } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
+import { resolve } from 'url';
 
 @Component({
   selector: 'app-profile-completion',
@@ -18,6 +20,8 @@ export class ProfileCompletionComponent implements OnInit {
   lat: number;
   lng: number;
   soilTypes: string[] = ["Clay Soil", "Sandy Soil", "Silty Soil", "Peaty Soil", "Chalky Soil", "Loamy Soil"];
+  polygonAreaInKms:number;
+  polygonPoints:any;
   @ViewChild("search", {static: false}) public searchElementRef: ElementRef;
 
   userID: string;
@@ -53,7 +57,8 @@ export class ProfileCompletionComponent implements OnInit {
     private snackBar: MatSnackBar,
     private router: Router,
     private afs: AngularFirestore,
-    private afa: AngularFireAuth
+    private afa: AngularFireAuth,
+    private http: HttpClient
   ) {
     this.afa.user.subscribe((data) => {this.userID = data.uid;});
    }
@@ -132,11 +137,46 @@ export class ProfileCompletionComponent implements OnInit {
     this.profileCompletion.patchValue({location: {lat: this.lat, lng: this.lng}});
   }
 
+  land_area:number;
   onSubmit() {
+    //Send data to FireBase
     this.firebase.addData(this.profileCompletion.value, 'profileCompletion');
+    this.land_area = this.profileCompletion.value['land_area'];
+    //Calculate Polygon Points and Area
+    switch(this.profileCompletion.value['land_area_unit']){
+      case "metre": this.polygonAreaInKms = (this.land_area / 10^6); break;
+      case "acre": this.polygonAreaInKms = (this.land_area / 247); break;
+      case "hectre": this.polygonAreaInKms = (this.land_area / 100); break;
+    }
+    let polygonAreaInDegrees = this.polygonAreaInKms / 111;
+    this.polygonPoints = [[
+      [this.lng + polygonAreaInDegrees, this.lat - polygonAreaInDegrees],
+      [this.lng + polygonAreaInDegrees, this.lat + polygonAreaInDegrees],
+      [this.lng - polygonAreaInDegrees, this.lat + polygonAreaInDegrees],
+      [this.lng - polygonAreaInDegrees, this.lat - polygonAreaInDegrees],
+      [this.lng + polygonAreaInDegrees, this.lat - polygonAreaInDegrees]
+    ]];
+
+    //Construct Request
+    const url = "http://api.agromonitoring.com/agro/1.0/polygons?appid=613d1afb9e5bdef76ca5b04626254376";
+    let body = {
+      "name": this.userID,
+      "geo_json":{
+        "type":"Feature",
+        "properties":{},
+        "geometry":{
+          "type":"Polygon",
+          "coordinates":this.polygonPoints
+        }
+      }
+    };
+    //Create Polygon
+    this.http.post(url, body).subscribe(response => {console.log(response)});
+
+    //Navigate user
     this.afs.collection('profileCompletion', ref => ref.where('userID', '==', this.userID)).valueChanges()    .subscribe((result) =>{
-          if(result.length == 0 || !result){ this.router.navigateByUrl('/dashboard') }
-          else { this.snackBar.open('Error sending data. Try again!', 'Okay', {duration: 3500}); this.router.navigateByUrl('') }
+          if(result.length == 0 || !result){ this.snackBar.open('Error sending data. Try again!', 'Okay', {duration: 3500}); this.router.navigateByUrl('') }
+          else { this.router.navigateByUrl('/dashboard') }
       });
   }
 

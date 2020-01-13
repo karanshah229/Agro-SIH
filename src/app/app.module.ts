@@ -16,18 +16,34 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProfileCompletionComponent } from './profile-completion/profile-completion.component';
 
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatInputModule } from '@angular/material';
+import { MatInputModule, MatMenuModule } from '@angular/material';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatSelectModule } from '@angular/material/select';
 import { AgmCoreModule } from '@agm/core';
+import { MainNavComponent } from './dashboard/main-nav/main-nav.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { PestDetectionComponent } from './dashboard/pest-detection/pest-detection.component';
+import { SowingComponent } from './dashboard/sowing/sowing.component';
+import { ForumComponent } from './dashboard/forum/forum.component';
+import { HttpClientModule } from '@angular/common/http';
+import { OverviewComponent } from './dashboard/overview/overview.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
     DashboardComponent,
-    ProfileCompletionComponent
+    ProfileCompletionComponent,
+    MainNavComponent,
+    PestDetectionComponent,
+    SowingComponent,
+    ForumComponent,
+    OverviewComponent
   ],
   imports: [
     BrowserModule,
@@ -39,6 +55,7 @@ import { AgmCoreModule } from '@agm/core';
     FlexLayoutModule,
     FormsModule,
     ReactiveFormsModule,
+    HttpClientModule,
     MatFormFieldModule,
     MatInputModule,
     MatButtonModule,
@@ -47,7 +64,13 @@ import { AgmCoreModule } from '@agm/core';
     AgmCoreModule.forRoot({
       apiKey: environment.googleMapsKey,
       libraries: ["places"]
-    })
+    }),
+    LayoutModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

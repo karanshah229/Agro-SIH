@@ -7,8 +7,6 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { Observable, of, Subject, BehaviorSubject } from 'rxjs';
-import { AuthService } from 'src/services/Auth/auth.service';
-import { AngularFireAuth } from '@angular/fire/auth';
 
 @Component({
   selector: 'app-index',

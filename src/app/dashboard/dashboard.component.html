@@ -1,1 +1,6 @@
-dashboard works!
+<app-main-nav>
+  <div style="margin: 2rem">
+    <div [ngStyle]="{'box-sizing': 'border-box', 'background-color': '#292929', 'height': '50px'}" [ngStyle.lt-md]="{'box-sizing': 'border-box', 'background-color': '#292929', 'height': '30px'}"></div>
+    <router-outlet></router-outlet>
+  </div>
+</app-main-nav>

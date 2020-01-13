@@ -37,7 +37,8 @@
         <mat-form-field appearance="outline" [ngStyle.gt-md]="{'width': '20%'}">
           <mat-label>Area unit</mat-label>
           <mat-select required formControlName="land_area_unit">
-            <mat-option value="metre">metre</mat-option>
+            <mat-option value="metre">metre<sup>2</sup></mat-option>
+            <mat-option value="kilometre">kilometre<sup>2</sup></mat-option>
             <mat-option value="hectre">hectre</mat-option>
             <mat-option value="acre">acre</mat-option>
           </mat-select>

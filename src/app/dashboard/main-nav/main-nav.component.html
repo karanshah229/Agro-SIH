@@ -1,0 +1,41 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav
+      #drawer
+      class="sidenav"
+      fixedInViewport
+      [attr.role]="isMobile ? 'dialog' : 'navigation'"
+      [mode]=" isMobile ? 'over' : 'side'"
+      [opened]="isMobile ? 'false' : 'true'">
+    <mat-toolbar style="color: white">Menu</mat-toolbar>
+    <mat-nav-list>
+      <hr style="margin-bottom: 2rem">
+      <a mat-list-item [routerLink]="['overview']" routerLinkActive="side-nav-active" (click)="close_side_nav()">Overview</a>
+      <a mat-list-item [routerLink]="['pest-detection']" routerLinkActive="side-nav-active" (click)="close_side_nav()">Pest Detection</a>
+      <a mat-list-item [routerLink]="['sowing']" routerLinkActive="side-nav-active" (click)="close_side_nav()">Crop Health and Sowing</a>
+      <a mat-list-item [routerLink]="['forum']" routerLinkActive="side-nav-active" (click)="close_side_nav()">Forum</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar style="background-color: #2962FF; color: white">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isMobile">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <span>Agro</span>
+
+      <div style="flex: 1 1 auto"></div>
+
+      <div class="material-icons nav-btn menu-btn" [matMenuTriggerFor]="menu" fxShow.lt-md="false">arrow_drop_down</div>
+      <mat-menu #menu="matMenu" xPosition="before">
+        <button mat-menu-item class="mat-menu-item" (click)="logout()">
+          <span [ngStyle]="{'padding-right': '5px'}">Logout</span><span class="material-icons">logout</span>
+        </button>
+      </mat-menu>
+    </mat-toolbar>
+    <ng-content></ng-content>
+  </mat-sidenav-content>
+</mat-sidenav-container>
