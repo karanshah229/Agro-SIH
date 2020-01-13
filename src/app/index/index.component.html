@@ -4,7 +4,7 @@
       <img src="assets/logo.jpg" [ngStyle]="{'width': '25%'}" [ngStyle.lt-md]="{'width': '50%'}">
     </div>
 
-    <div fxLayout fxLayoutGap="10px" fxLayoutAlign="center">
+    <div [fxHide]="windowRef.confirmationResult" fxLayout fxLayoutGap="10px" fxLayoutAlign="center">
       <mat-form-field fxFlex="5" fxFlex.lt-md="20" appearance="outline" [ngStyle]="{'margin-right': '1rem'}">
         <input matInput style="color: black" formControlName="countryCode">
       </mat-form-field>
@@ -20,7 +20,7 @@
     <div [fxHide]="windowRef.confirmationResult" id="recaptcha-container" fxLayoutAlign="center" style="margin: 1rem 0" [ngStyle.lt-md]="{'margin':'2rem 0'}"></div>
 
     <div [fxHide]="windowRef.confirmationResult" fxLayout fxLayoutAlign="center" fxLayoutGap="1rem">
-      <button type="button" mat-raised-button color="accent" style="padding: 0.5rem 1.5rem;" [ngStyle.lt-md]="{'padding':'0.5rem 1.5rem', 'margin': '5px'}" (click)="sendLoginCode()"[disabled]="!signIn.valid">Send OTP</button>
+      <button type="button" mat-raised-button color="accent" style="padding: 0.5rem 1.5rem;" [ngStyle.lt-md]="{'padding':'0.5rem 1.5rem', 'margin': '5px'}" (click)="sendLoginCode()" [disabled]="!((reCaptchaVerified | async) && signIn.valid)">Send OTP</button>
     </div>
 
   </main>

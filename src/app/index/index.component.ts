@@ -1,11 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 
 import { WindowService } from '../../services/Auth/window.service';
 import * as firebase from 'firebase';
-import { environment } from 'src/environments/environment';
 import { MatSnackBar } from '@angular/material';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { AngularFirestore } from '@angular/fire/firestore';
+import { Observable, of, Subject, BehaviorSubject } from 'rxjs';
+import { AuthService } from 'src/services/Auth/auth.service';
+import { AngularFireAuth } from '@angular/fire/auth';
 
 @Component({
   selector: 'app-index',
@@ -16,10 +19,13 @@ export class IndexComponent implements OnInit {
   windowRef: any;
   user: any;
   loginBtnMsg: string = 'Send OTP';
-  reCaptchaVerified:boolean = false;
+  reCaptchaVerified:BehaviorSubject<boolean> = new BehaviorSubject(false);
+  nextRoute:string;
 
   signIn: FormGroup;
   sendOTP: FormGroup;
+
+  profileCompletion: Observable<any>;
 
   signIn_formErrors = {
     mobileNumber: ''
@@ -44,30 +50,33 @@ export class IndexComponent implements OnInit {
   };
 
 
-  constructor(private win: WindowService, private snackBar: MatSnackBar, private fb: FormBuilder,
-  private router: Router) { }
+  constructor(
+    private win: WindowService,
+    private snackBar: MatSnackBar,
+    private fb: FormBuilder,
+    private router: Router,
+    private afs: AngularFirestore,
+    private changeDetectorRef: ChangeDetectorRef) { }
 
   ngOnInit() {
     this.windowRef = this.win.windowRef;
-    firebase.initializeApp(environment.firebase);
     this.windowRef.recaptchaVerifier = new firebase.auth.RecaptchaVerifier('recaptcha-container', {
-     callback: function(){
-       this.reCaptchaVerified = true;
-        console.log(this.reCaptchaVerified);
-        alert(this.reCaptchaVerified);
+     'callback': () => {
+        this.reCaptchaVerified.next(true);
+        this.changeDetectorRef.detectChanges();
       }
-   });
+    });
     this.windowRef.recaptchaVerifier.render();
     this.create_signInForm();
   }
 
   sendLoginCode(){
     const appVerifier = this.windowRef.recaptchaVerifier;
-    console.log(appVerifier);
-    const num = `+${this.signIn.controls['countryCode'].value}${this.signIn.controls['mobileNumber'].value}`;
+    const num = `${this.signIn.controls['countryCode'].value}${this.signIn.controls['mobileNumber'].value}`;
 
     firebase.auth().signInWithPhoneNumber(num, appVerifier)
     .then(result => {
+      let num = this.signIn.value['countryCode'] + this.signIn.value['mobileNumber'];
       this.windowRef.confirmationResult = result;
       this.loginBtnMsg = 'Login';
       this.create_sendOTP();
@@ -82,12 +91,16 @@ export class IndexComponent implements OnInit {
     .confirm(this.sendOTP.controls['OTP'].value)
     .then(result => {
       console.log(result);
-      this.snackBar.open('Successfully authenticated', 'CLOSE', {duration: 3500});
-      this.router.navigateByUrl('dashboard');
+      this.snackBar.open('Login Successful', 'CLOSE', {duration: 3000});
+      this.afs.collection('profileCompletion', ref => ref.where('userID', '==', result.user.uid)).valueChanges().subscribe((result) =>{
+          console.log(result);
+          if(result.length == 0 || !result){ this.router.navigateByUrl('profileCompletion') }
+          else { this.router.navigateByUrl('dashboard') }
+      });
     })
     .catch(error => {
       console.log(error);
-      this.snackBar.open('Incorrect code entered, please try again', 'CLOSE', {duration: 2000});
+      this.snackBar.open('Incorrect code entered, please try again', 'CLOSE', {duration: 3500});
       this.windowRef.confirmationResult = null;
       this.router.navigateByUrl('signIn');
     });

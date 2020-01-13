@@ -1,0 +1,13 @@
+.heading {
+  padding: 2rem;
+  background-color: #292929;
+  color: white;
+  font-size: 1.5rem;
+}
+
+main {
+  width: 70%;
+  text-align: center;
+  padding: 2rem;
+}
+/*# sourceMappingURL=profile-completion.component.css.map */
