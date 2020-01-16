@@ -1,1 +1,114 @@
-<p>climate works!</p>
+<div fxLayout fxLayout.lt-md="column" fxLayoutAlign="space-around">
+
+  <mat-card fxFlex="25" fxFlex.lt-md="100">
+    <mat-card-title style="font-size: 1.1rem; text-align: center;">Current Weather</mat-card-title><hr><br><br>
+    <mat-card-content *ngIf="current_weather && current_uvi">
+      <h2 style="text-align: center;">{{ current_weather.weather[0].description }}</h2>
+      <h3 style="text-align: center;">
+        {{ (current_weather.main.temp - 273.15).toFixed(2) }} <sup>o</sup>C
+      </h3><hr>
+      <mat-list>
+        <mat-list-item>
+          <span>Wind </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ current_weather.wind.speed.toFixed(2) }} m/s</span>
+        </mat-list-item>
+        <mat-list-item>
+          <span>Pressure </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ current_weather.main.pressure.toFixed(2) }} hPa</span>
+        </mat-list-item>
+        <mat-list-item>
+          <span>Humidity </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ current_weather.main.humidity.toFixed(2) }}</span>
+        </mat-list-item>
+        <mat-list-item>
+          <span>Clouds </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ current_weather.clouds.all.toFixed(2) }} %</span>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+    <mat-card-content *ngIf="!current_weather" fxLayoutAlign="center">
+      <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card fxFlex="45" fxFlex.lt-md="100">
+    <mat-card-title style="font-size: 1.1rem; text-align: center;">Weather Forecast</mat-card-title><hr><br>
+    <mat-card-content *ngIf="forecast_weather">
+      <mat-list>
+        <mat-list-item *ngFor="let weather of forecast_weather; let i = index" style="margin: 10px 0; padding: 2rem 0">
+          <div fxLayout="column" fxLayoutGap="5px" style="vertical-align: middle">
+            <div>{{ weather.date }}</div>
+            <div>
+              <span>{{ weather.time }}</span>
+              <span style="vertical-align: middle"><img [src]="weather.icon" style="height: 3rem"></span>
+            </div>
+          </div>
+          <span style="flex: 1 1 auto"></span>
+          <div fxLayout="column" fxLayoutGap="5px" style="vertical-align: middle">
+            <div>
+              <span style="margin-right: 5px; background-color: #CCC; border-radius: 50%; padding: 6px">{{ (current_weather.main.temp - 273.15).toFixed(2) }} <sup>o</sup>C</span>
+              <span>{{ weather.weather[0].description }}</span>
+            </div>
+            <div>
+              <span style="margin-right: 5px">{{ current_weather.wind.speed.toFixed(2) }} m/s</span>
+              <span style="margin-right: 5px">{{ current_weather.clouds.all.toFixed(2) }} %</span>
+              <span style="margin-right: 5px">{{ current_weather.main.pressure.toFixed(2) }} hPa</span>
+            </div>
+          </div>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+    <mat-card-content *ngIf="!current_uvi" fxLayoutAlign="center">
+      <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
+    </mat-card-content>
+  </mat-card>
+
+  <div fxLayout="column" fxFlex="25" fxLayoutGap="10px">
+    <mat-card>
+    <mat-card-title style="font-size: 1.1rem; text-align: center;">Current Soil Data</mat-card-title><hr><br>
+    <mat-card-content *ngIf="current_soil">
+      <mat-list>
+        <mat-list-item>
+          <span>T10 </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ (current_soil.t10 - 273.15).toFixed(2) }}</span>
+        </mat-list-item>
+        <mat-list-item>
+          <span>T0 </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ (current_soil.t0 - 273.15).toFixed(2) }}</span>
+        </mat-list-item>
+        <mat-list-item>
+          <span>Moisture </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ current_soil.moisture }}</span>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+    <mat-card-content *ngIf="!current_soil" fxLayoutAlign="center">
+      <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
+    </mat-card-content>
+  </mat-card>
+  <div style="flex: 1 1 auto"></div>
+  <mat-card>
+    <mat-card-title style="font-size: 1.1rem; text-align: center;">Current UVI Data</mat-card-title><hr><br>
+    <mat-card-content *ngIf="current_uvi">
+      <mat-list>
+        <mat-list-item>
+          <span>UVI </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ current_uvi.uvi }}</span>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+    <mat-card-content *ngIf="!current_uvi" fxLayoutAlign="center">
+      <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
+    </mat-card-content>
+  </mat-card>
+  </div>
+
+</div>

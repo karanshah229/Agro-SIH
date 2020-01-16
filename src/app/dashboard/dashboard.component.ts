@@ -20,6 +20,7 @@ export class DashboardComponent implements OnInit {
       if(card_header === "overview") this.card_header.next("Overview");
       else if(card_header === "pest-detection") this.card_header.next("Pest Detection");
       else if(card_header === "sowing") this.card_header.next("Crop Health and Sowing");
+      else if(card_header === "climate") this.card_header.next("Climate Data");
       else if(card_header === "forum") this.card_header.next("Forum");
     });
   }

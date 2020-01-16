@@ -1,0 +1,3548 @@
+[
+  {
+    "name": "Apple Scab",
+    "scietific_name": "Venturia inaequalis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/apple-scab-apple-3.jpg"
+  },
+  {
+    "name": "Powdery Mildew",
+    "scietific_name": "Erysiphaceae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/powdery-mildew-cotton-1576497633.jpg"
+  },
+  {
+    "name": "Woolly Aphid",
+    "scietific_name": "Eriosoma lanigerum",
+    "fungus": "Insect",
+    "image": "assets/pests/images/woolly-aphid-sugarcane-1564742503.jpg"
+  },
+  {
+    "name": "Thrips",
+    "scietific_name": "Thysanoptera",
+    "fungus": "Insect",
+    "image": "assets/pests/images/thrips-sorghum-1569857659.jpg"
+  },
+  {
+    "name": "European Red Mite",
+    "scietific_name": "Panonychus ulmi",
+    "fungus": "Mite",
+    "image": "assets/pests/images/european-red-mite-1.jpg"
+  },
+  {
+    "name": "Apple Mosaic Virus",
+    "scietific_name": "APMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/apple-mosaic-virus-1.jpg"
+  },
+  {
+    "name": "Leaf Miner Flies",
+    "scietific_name": "Agromyzidae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/leaf-miner-flies-okra-1562762708.jpg"
+  },
+  {
+    "name": "Aphids",
+    "scietific_name": "Aphidoidea",
+    "fungus": "Insect",
+    "image": "assets/pests/images/aphids-sugarcane-1569852182.jpg"
+  },
+  {
+    "name": "Calcium Deficiency",
+    "scietific_name": "Calcium Deficiency",
+    "fungus": "Deficiency",
+    "image": "assets/pests/images/calcium-deficiency-banana-1563888489.jpg"
+  },
+  {
+    "name": "Botrytis Blight",
+    "scietific_name": "Botrytis cinerea",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/botrytis-blight-tomato-1562143509.jpg"
+  },
+  {
+    "name": "Zinc Deficiency",
+    "scietific_name": "Zinc Deficiency",
+    "fungus": "Deficiency",
+    "image": "assets/pests/images/zinc-deficiency-pepper-1552660203.jpg"
+  },
+  {
+    "name": "Sulfur Deficiency",
+    "scietific_name": "Sulfur Deficiency",
+    "fungus": "Deficiency",
+    "image": "assets/pests/images/sulfur-deficiency-rice-1.jpg"
+  },
+  {
+    "name": "Sugarcane Yellow Leaf Virus",
+    "scietific_name": "Sugarcane Yellow Leaf Virus",
+    "fungus": "Virus",
+    "image": "assets/pests/images/sugarcane-yellow-leaf-virus-sugarcane-1569248457.jpg"
+  },
+  {
+    "name": "Mango Scab",
+    "scietific_name": "Elsino\u00eb mangiferae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/mango-scab-mango-1557912424.jpg"
+  },
+  {
+    "name": "Mango Malformation",
+    "scietific_name": "Fusarium mangiferae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/mango-malformation-mango-1570527045.jpg"
+  },
+  {
+    "name": "Mango Midge",
+    "scietific_name": "Procontarinia sp.",
+    "fungus": "Insect",
+    "image": "assets/pests/images/mango-midge-mango-1556619773.jpg"
+  },
+  {
+    "name": "Mango Leaf Webber",
+    "scietific_name": "Orthaga euadrusalis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/mango-leaf-webber-mango-5.jpg"
+  },
+  {
+    "name": "Pomegranate Fruit Borer",
+    "scietific_name": "Deudorix Isocrates",
+    "fungus": "Insect",
+    "image": "assets/pests/images/pomegranate-fruit-borer-pomegranate-1573227590.jpg"
+  },
+  {
+    "name": "Red Pumpkin Beetle",
+    "scietific_name": "Aulacophora foveicollis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/red-pumpkin-beetle-cucumber-1563265345.jpg"
+  },
+  {
+    "name": "Helicoverpa Caterpillar",
+    "scietific_name": "Helicoverpa armigera",
+    "fungus": "Insect",
+    "image": "assets/pests/images/helicoverpa-caterpillar-tomato-1552658586.jpg"
+  },
+  {
+    "name": "Pod Fly",
+    "scietific_name": "Melanagromyza obtusa",
+    "fungus": "Insect",
+    "image": "assets/pests/images/pod-fly-pigeonpea-1575471261.jpg"
+  },
+  {
+    "name": "Gram Blue Butterfly",
+    "scietific_name": "Euchrysops cnejus",
+    "fungus": "Insect",
+    "image": "assets/pests/images/gram-blue-butterfly-gram-1574872831.jpg"
+  },
+  {
+    "name": "Soybean Looper",
+    "scietific_name": "Pseudoplusia includens",
+    "fungus": "Insect",
+    "image": "assets/pests/images/soybean-looper-gram-1.jpg"
+  },
+  {
+    "name": "Citrus Leaf Miner",
+    "scietific_name": "Phyllocnistis citrella",
+    "fungus": "Insect",
+    "image": "assets/pests/images/citrus-leaf-miner-citrus-2.jpg"
+  },
+  {
+    "name": "Hadda Beetle",
+    "scietific_name": "Epilachna vigintioctopunctata",
+    "fungus": "Insect",
+    "image": "assets/pests/images/hadda-beetle-melon-1568299396.jpg"
+  },
+  {
+    "name": "Potato Tuber Moth",
+    "scietific_name": "Phthorimaea operculella",
+    "fungus": "Insect",
+    "image": "assets/pests/images/potato-tuber-moth-1.jpg"
+  },
+  {
+    "name": "Tomato Spotted Wilt Virus",
+    "scietific_name": "TSWV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/tomato-spotted-wilt-virus-potato-1576494679.jpg"
+  },
+  {
+    "name": "Grassy Shoot of Sugarcane",
+    "scietific_name": "Sugarcane grassy shoot phytoplasma",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/grassy-shoot-of-sugarcane-sugarcane-1576514714.jpg"
+  },
+  {
+    "name": "Anthracnose of Blackgram",
+    "scietific_name": "Colletotrichum lindemuthianum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/anthracnose-of-blackgram-gram-1572354846.jpg"
+  },
+  {
+    "name": "Stem Rot of Rice",
+    "scietific_name": "Magnaporthe salvinii",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/stem-rot-of-rice-1.jpg"
+  },
+  {
+    "name": "Rice Leafroller",
+    "scietific_name": "Cnaphalocrocis medinalis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/rice-leafroller-1.jpg"
+  },
+  {
+    "name": "Little Leaf of Brinjal",
+    "scietific_name": "Phytoplasma",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/little-leaf-of-brinjal-eggplant-1576503613.jpg"
+  },
+  {
+    "name": "False Smut",
+    "scietific_name": "Villosiclava virens",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/false-smut-rice-1.jpg"
+  },
+  {
+    "name": "Southern Leaf Blight of Maize",
+    "scietific_name": "Cochliobolus heterostrophus",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/southern-leaf-blight-of-maize-maize-1.jpg"
+  },
+  {
+    "name": "Violet Stem Borer",
+    "scietific_name": "Sesamia inferens",
+    "fungus": "Insect",
+    "image": "assets/pests/images/violet-stem-borer-sorghum-1562149102.jpg"
+  },
+  {
+    "name": "Rice Bug",
+    "scietific_name": "Leptocorisa spp.",
+    "fungus": "Insect",
+    "image": "assets/pests/images/rice-bug-1.jpg"
+  },
+  {
+    "name": "Yellow Stem Borer",
+    "scietific_name": "Scirpophaga incertulas",
+    "fungus": "Insect",
+    "image": "assets/pests/images/yellow-stem-borer-rice-2.jpg"
+  },
+  {
+    "name": "Wilt Disease of Sugarcane",
+    "scietific_name": "Gibberella fujikuroi",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/wilt-disease-of-sugarcane-1.jpg"
+  },
+  {
+    "name": "Bacterial Soft Rot of Pepper",
+    "scietific_name": "Pectobacterium carotovorum subsp. carotovorum",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-soft-rot-of-pepper-pepper-1557238481.jpg"
+  },
+  {
+    "name": "Sterility Mosaic",
+    "scietific_name": "PPSMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/sterility-mosaic-pigeonpea-2.jpg"
+  },
+  {
+    "name": "Root Borer",
+    "scietific_name": "Cosmopolites sordidus",
+    "fungus": "Insect",
+    "image": "assets/pests/images/root-borer-banana-1560846898.jpg"
+  },
+  {
+    "name": "Anthracnose of Pepper",
+    "scietific_name": "Colletotrichum sp.",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/anthracnose-of-pepper-pepper-1560239434.jpg"
+  },
+  {
+    "name": "Fall Armyworm",
+    "scietific_name": "Spodoptera frugiperda",
+    "fungus": "Insect",
+    "image": "assets/pests/images/fall-armyworm-rice-1562144149.jpg"
+  },
+  {
+    "name": "Leafhoppers and Jassids",
+    "scietific_name": "Amrasca spp.",
+    "fungus": "Insect",
+    "image": "assets/pests/images/leafhoppers-and-jassids-okra-1564044490.jpg"
+  },
+  {
+    "name": "Charcoal Rot of Soybean",
+    "scietific_name": "Macrophomina phaseolina",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/charcoal-rot-of-soybean-soybean-1.jpg"
+  },
+  {
+    "name": "Rhizoctonia Aerial Blight",
+    "scietific_name": "Rhizoctonia solani",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/rhizoctonia-aerial-blight-soybean-1.jpg"
+  },
+  {
+    "name": "Gummosis",
+    "scietific_name": "Botryosphaeria dothidea",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/gummosis-mango-1550236478.jpg"
+  },
+  {
+    "name": "Tobacco Caterpillar",
+    "scietific_name": "Spodoptera litura",
+    "fungus": "Insect",
+    "image": "assets/pests/images/tobacco-caterpillar-cabbage-1562749429.jpg"
+  },
+  {
+    "name": "Sooty Mold",
+    "scietific_name": "Pezizomycotina",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/sooty-mold-pepper-1560239299.jpg"
+  },
+  {
+    "name": "Tomato Yellow Leaf Curl Virus",
+    "scietific_name": "TYLCV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/tomato-yellow-leaf-curl-virus-tomato-1575981863.jpg"
+  },
+  {
+    "name": "Bacterial Blight of Pomegranate",
+    "scietific_name": "Xanthomonas axonopodis pv. punicae",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-blight-of-pomegranate-pomegranate-2.jpg"
+  },
+  {
+    "name": "Bacterial Wilt",
+    "scietific_name": "Ralstonia solanacearum",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-wilt-cucumber-1550840561.jpg"
+  },
+  {
+    "name": "Urd Bean Leaf Crinkle Virus",
+    "scietific_name": "ULCV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/urd-bean-leaf-crinkle-virus-gram-1571051801.jpg"
+  },
+  {
+    "name": "Early Blight",
+    "scietific_name": "Alternaria solani",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/early-blight-potato-1550840389.jpg"
+  },
+  {
+    "name": "Spiny Bollworm",
+    "scietific_name": "Earias insulana",
+    "fungus": "Insect",
+    "image": "assets/pests/images/spiny-bollworm-cotton-1551216713.jpg"
+  },
+  {
+    "name": "Bacterial Spot of Tomato",
+    "scietific_name": "Xanthomonas spp.",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-spot-of-tomato-tomato-1.jpg"
+  },
+  {
+    "name": "Mealybug",
+    "scietific_name": "Pseudococcidae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/mealybug-sugarcane-1564497643.jpg"
+  },
+  {
+    "name": "Mediterranean Fruit Fly",
+    "scietific_name": "Ceratitis capitata",
+    "fungus": "Insect",
+    "image": "assets/pests/images/mediterranean-fruit-fly-2.jpg"
+  },
+  {
+    "name": "Bunchy Top Virus",
+    "scietific_name": "Bunchy Top Virus",
+    "fungus": "Virus",
+    "image": "assets/pests/images/bunchy-top-virus-banana-1563271453.jpg"
+  },
+  {
+    "name": "Citrus Canker",
+    "scietific_name": "Xanthomonas axonopodis pv. citri",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/citrus-canker-citrus-6.jpg"
+  },
+  {
+    "name": "Whiteflies",
+    "scietific_name": "Aleyrodidae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/whiteflies-banana-1562073973.jpg"
+  },
+  {
+    "name": "White Grub",
+    "scietific_name": "Holotrichia spp.",
+    "fungus": "Insect",
+    "image": "assets/pests/images/white-grub-on-peanut-1.jpg"
+  },
+  {
+    "name": "Banana Streak Virus",
+    "scietific_name": "Banana Streak Virus",
+    "fungus": "Virus",
+    "image": "assets/pests/images/banana-streak-virus-banana-1572952474.jpg"
+  },
+  {
+    "name": "Citrus Tristeza Virus",
+    "scietific_name": "CTV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/citrus-tristeza-virus-citrus-1.jpg"
+  },
+  {
+    "name": "Bacterial Leaf Blight of Bean",
+    "scietific_name": "Xanthomonas axonopodis pv. phaseoli",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-leaf-blight-gram-1.jpg"
+  },
+  {
+    "name": "Pyricularia Leaf Spot",
+    "scietific_name": "Magnaporthe oryzae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/pyricularia-leaf-spot-1.jpg"
+  },
+  {
+    "name": "Root Rot of Lentil",
+    "scietific_name": "Rhizoctonia solani",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/root-rot-of-lentil-lentil-1.jpg"
+  },
+  {
+    "name": "Spotted Pod Borer",
+    "scietific_name": "Maruca vitrata",
+    "fungus": "Insect",
+    "image": "assets/pests/images/spotted-pod-borer-1557241539.jpg"
+  },
+  {
+    "name": "Black Citrus Aphid",
+    "scietific_name": "Toxoptera aurantii",
+    "fungus": "Insect",
+    "image": "assets/pests/images/black-citrus-aphid-mango-1551182725.jpg"
+  },
+  {
+    "name": "Gram Pod Borer",
+    "scietific_name": "Helicoverpa armigera",
+    "fungus": "Insect",
+    "image": "assets/pests/images/gram-pod-borer-chickpea-1569856399.jpg"
+  },
+  {
+    "name": "Ring Spot Virus",
+    "scietific_name": "PRSV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/ring-spot-virus-1.jpg"
+  },
+  {
+    "name": "Bacterial Spot of Pepper",
+    "scietific_name": "Xanthomonas spp.",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-spot-of-pepper-pepper-1560240277.jpg"
+  },
+  {
+    "name": "Bacterial Leaf Blight of Sugarcane",
+    "scietific_name": "Acidovorax avenae",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-leaf-blight-of-sugarcane-1.jpg"
+  },
+  {
+    "name": "Powdery Mildew of Cereals",
+    "scietific_name": "Blumeria graminis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/powdery-mildew-of-cereals-1.jpg"
+  },
+  {
+    "name": "Cotton Leafhopper Jassids",
+    "scietific_name": "Amrasca devastans",
+    "fungus": "Insect",
+    "image": "assets/pests/images/cotton-leafhopper-jassids-cotton-1554472768.jpg"
+  },
+  {
+    "name": "Yellow Stripe Rust",
+    "scietific_name": "Puccinia striiformis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/yellow-stripe-rust-1.jpg"
+  },
+  {
+    "name": "Tomato Late Blight",
+    "scietific_name": "Phytophthora infestans",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/tomato-late-blight-tomato-1556463774.jpg"
+  },
+  {
+    "name": "Gummosis of Citrus",
+    "scietific_name": "Phytophthora spp.",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/gummosis-of-citrus-citrus-1570540990.jpg"
+  },
+  {
+    "name": "Potato Late Blight",
+    "scietific_name": "Phytophthora infestans",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/potato-late-blight-1.jpg"
+  },
+  {
+    "name": "Cotton Semilooper",
+    "scietific_name": "Anomis flava",
+    "fungus": "Insect",
+    "image": "assets/pests/images/cotton-semilooper-cotton-1574085244.jpg"
+  },
+  {
+    "name": "Mango Fruit Fly",
+    "scietific_name": "Ceratitis cosyra",
+    "fungus": "Insect",
+    "image": "assets/pests/images/mango-fruit-fly-mango-1576511738.jpg"
+  },
+  {
+    "name": "Anthracnose of Papaya and Mango",
+    "scietific_name": "Colletotrichum gloeosporioides",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/anthracnose-of-papaya-and-mango-mango-1.jpg"
+  },
+  {
+    "name": "Black Sigatoka",
+    "scietific_name": "Mycosphaerella fijiensis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/black-sigatoka-banana-1563276850.jpg"
+  },
+  {
+    "name": "Karnal Bunt of Wheat",
+    "scietific_name": "Tilletia indica",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/karnal-bunt-of-wheat-wheat-1.jpg"
+  },
+  {
+    "name": "Northern Leaf Blight",
+    "scietific_name": "Setosphaeria turcica",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/northern-leaf-blight-of-maize-1.jpg"
+  },
+  {
+    "name": "Mango Hoppers",
+    "scietific_name": "Idioscopus spp.",
+    "fungus": "Insect",
+    "image": "assets/pests/images/mango-hoppers-mango-1.jpg"
+  },
+  {
+    "name": "Anthracnose of Citrus",
+    "scietific_name": "Colletotrichum gloeosporioides",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/anthracnose-of-citrus-citrus-1576506360.jpg"
+  },
+  {
+    "name": "Ear Cockle Eelworm",
+    "scietific_name": "Anguina tritici",
+    "fungus": "Other",
+    "image": "assets/pests/images/ear-cockle-eelworm-1.jpg"
+  },
+  {
+    "name": "Asian Rice Gall Midge",
+    "scietific_name": "Orseolia oryzae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/asian-rice-gall-midge-1.jpg"
+  },
+  {
+    "name": "Brown Spot of Rice",
+    "scietific_name": "Cochliobolus miyabeanus",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/brown-spot-of-rice-rice-1.jpg"
+  },
+  {
+    "name": "Citrus Scab",
+    "scietific_name": "Elsinoe fawcettii",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/citrus-scab-citrus-6.jpg"
+  },
+  {
+    "name": "Cabbage White Butterfly",
+    "scietific_name": "Pieris brassicae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/cabbage-white-butterfly-cabbage-1563191070.jpg"
+  },
+  {
+    "name": "Leaf Reddening of Cotton",
+    "scietific_name": "Leaf Reddening",
+    "fungus": "Other",
+    "image": "assets/pests/images/leaf-reddening-of-cotton-cotton-1.jpg"
+  },
+  {
+    "name": "Peanut Rust",
+    "scietific_name": "Puccinia arachidis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/peanut-rust-1.jpg"
+  },
+  {
+    "name": "Spider Mites",
+    "scietific_name": "Tetranychidae",
+    "fungus": "Mite",
+    "image": "assets/pests/images/spider-mites-sugarcane-1576081742.jpg"
+  },
+  {
+    "name": "Potato X Virus",
+    "scietific_name": "PVX",
+    "fungus": "Virus",
+    "image": "assets/pests/images/potato-x-virus-1.jpg"
+  },
+  {
+    "name": "Blue Butterfly",
+    "scietific_name": "Lampides boeticus",
+    "fungus": "Insect",
+    "image": "assets/pests/images/blue-butterfly-1.jpg"
+  },
+  {
+    "name": "Citrus Greening Disease",
+    "scietific_name": "Liberibacter asiaticus",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/citrus-greening-disease-citrus-1.jpg"
+  },
+  {
+    "name": "Downy Mildew of Millet",
+    "scietific_name": "Sclerospora graminicola",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/downy-mildew-of-millet-millet-1.jpg"
+  },
+  {
+    "name": "Diamondback Moth",
+    "scietific_name": "Plutella xylostella",
+    "fungus": "Insect",
+    "image": "assets/pests/images/diamondback-moth-cabbage-1562743657.jpg"
+  },
+  {
+    "name": "Bean Common Mosaic Virus",
+    "scietific_name": "BCMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/bean-common-mosaic-virus-1.jpg"
+  },
+  {
+    "name": "Flea Beetles",
+    "scietific_name": "Chrysomelidae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/flea-beetles-potato-5.jpg"
+  },
+  {
+    "name": "Ashy Stem Blight of Bean",
+    "scietific_name": "Macrophomina phaseolina",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/ashy-stem-blight-of-bean-peanut-1576081384.jpg"
+  },
+  {
+    "name": "Downy Mildew of Grape",
+    "scietific_name": "Plasmopara viticola",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/downy-mildew-of-grape-grape-1.jpg"
+  },
+  {
+    "name": "Red Rot",
+    "scietific_name": "Glomerella tucumanensis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/red-rot-sugarcane-1562576282.jpg"
+  },
+  {
+    "name": "Tan Spot",
+    "scietific_name": "Pyrenophora tritici-repentis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/tan-spot-wheat-1.jpg"
+  },
+  {
+    "name": "Brown Rust of Rye",
+    "scietific_name": "Puccinia recondita",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/brown-rust-of-rye-rye-1.jpg"
+  },
+  {
+    "name": "Bacterial Blight of Rice",
+    "scietific_name": "Xanthomonas oryzae pv. oryzae",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-blight-of-rice-rice-1575025271.jpg"
+  },
+  {
+    "name": "Septoria Leaf Spot",
+    "scietific_name": "Septoria lycopersici",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/septoria-leaf-spot-tomato-2.jpg"
+  },
+  {
+    "name": "Blast of Rice",
+    "scietific_name": "Magnaporthe oryzae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/blast-of-rice-rice-1553783689.jpg"
+  },
+  {
+    "name": "Wheat Leaf Rust",
+    "scietific_name": "Puccinia triticina",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/wheat-leaf-rust-wheat-1.jpg"
+  },
+  {
+    "name": "Black Rot",
+    "scietific_name": "Xanthomonas campestris pv. campestris",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/black-rot-cabbage-1562754705.jpg"
+  },
+  {
+    "name": "Bean Rust",
+    "scietific_name": "Uromyces appendiculatus",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/bean-rust-1.jpg"
+  },
+  {
+    "name": "Pea Rust",
+    "scietific_name": "Uromyces pisi",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/pea-rust-1.jpg"
+  },
+  {
+    "name": "Tobacco Streak Virus",
+    "scietific_name": "TSV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/tobacco-streak-virus-bean-1576493759.jpg"
+  },
+  {
+    "name": "Broad Mite",
+    "scietific_name": "Polyphagotarsonemus latus",
+    "fungus": "Mite",
+    "image": "assets/pests/images/broad-mite-pepper-1560237839.jpg"
+  },
+  {
+    "name": "Bacterial Pustule",
+    "scietific_name": "Xanthomonas axonopodis pv. glycines",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-pustule-1.jpg"
+  },
+  {
+    "name": "Onion Maggots",
+    "scietific_name": "Delia platura",
+    "fungus": "Insect",
+    "image": "assets/pests/images/onion-maggots-maize-1.jpg"
+  },
+  {
+    "name": "Powdery Mildew of Mango",
+    "scietific_name": "Oidium mangiferae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/powdery-mildew-of-mango-mango-1.jpg"
+  },
+  {
+    "name": "Black Scurf",
+    "scietific_name": "Rhizoctonia solani",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/black-scurf-1.jpg"
+  },
+  {
+    "name": "Stem Rot of Pigeonpea",
+    "scietific_name": "Phytophthora drechsleri f. sp. cajani",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/phytophthora-blight-1.jpg"
+  },
+  {
+    "name": "Common Bunt of Wheat",
+    "scietific_name": "Tilletia tritici",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/common-bunt-of-wheat-1.jpg"
+  },
+  {
+    "name": "Powdery Mildew of Papaya",
+    "scietific_name": "Oidium caricae-papayae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/powdery-mildew-of-papaya-papaya-1.jpg"
+  },
+  {
+    "name": "Parawilt",
+    "scietific_name": "Parawilt",
+    "fungus": "Other",
+    "image": "assets/pests/images/parawilt-cotton-1.jpg"
+  },
+  {
+    "name": "Rice Sheath Blight",
+    "scietific_name": "Rhizoctonia solani",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/rice-sheath-blight-rice-1575024459.jpg"
+  },
+  {
+    "name": "Spotted Stemborer",
+    "scietific_name": "Chilo partellus",
+    "fungus": "Insect",
+    "image": "assets/pests/images/spotted-stemborer-sorghum-1569857538.jpg"
+  },
+  {
+    "name": "Late and Early Leaf Spot",
+    "scietific_name": "Mycosphaerella spp.",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/late-and-early-leaf-spot-1.jpg"
+  },
+  {
+    "name": "Wheat Stem Rust",
+    "scietific_name": "Puccinia graminis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/wheat-stem-rust-wheat-1.jpg"
+  },
+  {
+    "name": "Loose Smut of Wheat",
+    "scietific_name": "Ustilago segetum var. tritici",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/loose-smut-wheat-3.jpg"
+  },
+  {
+    "name": "Anthracnose of Grape",
+    "scietific_name": "Elsinoe ampelina",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/anthracnose-of-grape-1.jpg"
+  },
+  {
+    "name": "Smut of Sugarcane",
+    "scietific_name": "Sporisorium scitamineum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/smut-of-sugarcane-sugarcane-1569222589.jpg"
+  },
+  {
+    "name": "Mango Dieback Disease",
+    "scietific_name": "Botryosphaeria rhodina",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/mango-dieback-disease-mango-1549985019.jpg"
+  },
+  {
+    "name": "Brown Planthopper",
+    "scietific_name": "Nilaparvata lugens",
+    "fungus": "Insect",
+    "image": "assets/pests/images/brown-planthopper-rice-1573637247.jpg"
+  },
+  {
+    "name": "Alternaria Leaf Spot of Cotton",
+    "scietific_name": "Alternaria macrospora",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/alternaria-leaf-spot-of-cotton-cotton-1565949146.jpg"
+  },
+  {
+    "name": "Panama Disease",
+    "scietific_name": "Fusarium oxysporum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/panama-disease-banana-1576510047.jpg"
+  },
+  {
+    "name": "Papaya Brown Spot",
+    "scietific_name": "Corynespora cassiicola",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/papaya-brown-spot-1.jpg"
+  },
+  {
+    "name": "Yellow Sigatoka",
+    "scietific_name": "Mycosphaerella musicola",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/yellow-sigatoka-banana-1563270070.jpg"
+  },
+  {
+    "name": "Anthracnose of Banana",
+    "scietific_name": "Colletotrichum musae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/anthracnose-of-banana-banana-1551112166.jpg"
+  },
+  {
+    "name": "Groundnut Bud Necrosis Virus",
+    "scietific_name": "GBNV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/groundnut-bud-necrosis-virus-peanut-1.jpg"
+  },
+  {
+    "name": "Potato Leafroll Virus",
+    "scietific_name": "PLRV",
+    "fungus": "Insect",
+    "image": "assets/pests/images/potato-leafroll-virus-1.jpg"
+  },
+  {
+    "name": "Mungbean Yellow Mosaic Virus",
+    "scietific_name": "MYMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/mungbean-yellow-mosaic-virus-gram-1571663857.jpg"
+  },
+  {
+    "name": "Pseudostem Weevil",
+    "scietific_name": "Odoiporus longicollis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/pseudostem-weevil-2.jpg"
+  },
+  {
+    "name": "Common Rust of Maize",
+    "scietific_name": "Puccinia sorghi",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/common-rust-of-maize-maize-1.jpg"
+  },
+  {
+    "name": "Algal Leaf Spot",
+    "scietific_name": "Cephaleuros virescens",
+    "fungus": "Other",
+    "image": "assets/pests/images/algal-leaf-spot-mango-1550582404.jpg"
+  },
+  {
+    "name": "Chilli Cercospora Leaf Spot",
+    "scietific_name": "Cercospora capsici",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/chilli-cercospora-leaf-spot-pepper-1560239911.jpg"
+  },
+  {
+    "name": "Charcoal Stalk Rot",
+    "scietific_name": "Macrophomina phaseolina",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/charcoal-stalk-rot-1.jpg"
+  },
+  {
+    "name": "Sorghum Midge",
+    "scietific_name": "Stenodiplosis sorghicola",
+    "fungus": "Insect",
+    "image": "assets/pests/images/sorghum-midge-sorghum-1551119034.jpg"
+  },
+  {
+    "name": "Bacterial Speck of Tomato",
+    "scietific_name": "Pseudomonas syringae pv. tomato",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-speck-of-tomato-tomato-1567497026.jpg"
+  },
+  {
+    "name": "Fusarium Head Blight",
+    "scietific_name": "Fusarium graminearum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/fusarium-head-blight-1.jpg"
+  },
+  {
+    "name": "Cucumber Mosaic Virus",
+    "scietific_name": "CMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/cucumber-mosaic-virus-zucchini-1.jpg"
+  },
+  {
+    "name": "Pomegranate Wilt",
+    "scietific_name": "Ceratocystis fimbriata",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/pomegranate-wilt-1.jpg"
+  },
+  {
+    "name": "Mango Nut Weevil",
+    "scietific_name": "Sternochetus mangiferae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/mango-nut-weevil-mango-1550239574.jpg"
+  },
+  {
+    "name": "Banana Lace Wing Bug",
+    "scietific_name": "Stephanitis typica",
+    "fungus": "Insect",
+    "image": "assets/pests/images/banana-lace-wing-bug-banana-1563277306.jpg"
+  },
+  {
+    "name": "Bacterial Soft Rot of Banana",
+    "scietific_name": "Pectobacterium carotovorum",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-soft-rot-of-banana-banana-1563276438.jpg"
+  },
+  {
+    "name": "Bean Yellow Mosaic Virus",
+    "scietific_name": "BYMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/bean-yellow-mosaic-virus-1.jpg"
+  },
+  {
+    "name": "Melon Fruit Fly",
+    "scietific_name": "Zeugodacus cucurbitae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/melon-fruit-fly-1.jpg"
+  },
+  {
+    "name": "Cercospora Fruit and Leaf Spot",
+    "scietific_name": "Pseudocercospora punicae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/cercospora-fruit-and-leaf-spot-pomegranate-2.jpg"
+  },
+  {
+    "name": "Alternaria Black Spot and Fruit Rot",
+    "scietific_name": "Alternaria alternata",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/alternaria-black-spot-and-fruit-rot-tomato-1562148764.jpg"
+  },
+  {
+    "name": "Anthracnose of Pomegranate",
+    "scietific_name": "Glomerella cingulata",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/anthracnose-of-pomegranate-pomegranate-1556288565.jpg"
+  },
+  {
+    "name": "Chilli Thrips",
+    "scietific_name": "Scirtothrips dorsalis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/chilli-thrips-pepper-1574948169.jpg"
+  },
+  {
+    "name": "Rice Ear-Cutting Caterpillar",
+    "scietific_name": "Mythimna separata",
+    "fungus": "Insect",
+    "image": "assets/pests/images/rice-ear-cutting-caterpillar-rice-1570617027.jpg"
+  },
+  {
+    "name": "Powdery Mildew of Grape",
+    "scietific_name": "Erysiphe necator",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/powdery-mildew-of-grape-1.jpg"
+  },
+  {
+    "name": "Chilli Leaf Curl Virus",
+    "scietific_name": "CLCV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/chilli-leaf-curl-virus-pepper-1574948117.jpg"
+  },
+  {
+    "name": "Leaf Blight of Cucurbits",
+    "scietific_name": "Alternaria cucumerina",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/leaf-blight-of-cucurbits-1.jpg"
+  },
+  {
+    "name": "Purple Blotch of Onion",
+    "scietific_name": "Alternaria porri",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/purple-blotch-of-onion-onion-1562772862.jpg"
+  },
+  {
+    "name": "Botrytis Leaf Blight",
+    "scietific_name": "Botryotinia squamosa",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/botrytis-leaf-blight-onion-1574937826.jpg"
+  },
+  {
+    "name": "Pea Pod Borer",
+    "scietific_name": "Etiella zinckenella",
+    "fungus": "Insect",
+    "image": "assets/pests/images/pea-pod-borer-1.jpg"
+  },
+  {
+    "name": "Brown Rust of Barley",
+    "scietific_name": "Puccinia hordei",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/brown-rust-of-barley-barley-1.jpg"
+  },
+  {
+    "name": "Oriental Fruit Fly",
+    "scietific_name": "Bactrocera dorsalis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/oriental-fruit-fly-1.jpg"
+  },
+  {
+    "name": "Shoot Flies",
+    "scietific_name": "Atherigona sp.",
+    "fungus": "Insect",
+    "image": "assets/pests/images/shoot-flies-1550421205.jpg"
+  },
+  {
+    "name": "Sharka",
+    "scietific_name": "Plum pox virus",
+    "fungus": "Virus",
+    "image": "assets/pests/images/sharka-1550773075.jpg"
+  },
+  {
+    "name": "Bean Golden Mosaic Virus",
+    "scietific_name": "BGMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/bean-golden-mosaic-virus-1.jpg"
+  },
+  {
+    "name": "Cotton Leaf Roller",
+    "scietific_name": "Syllepte derogata",
+    "fungus": "Insect",
+    "image": "assets/pests/images/cotton-leaf-roller-cotton-1551257681.jpg"
+  },
+  {
+    "name": "Citrus Psyllid",
+    "scietific_name": "Diaphorina citri",
+    "fungus": "Insect",
+    "image": "assets/pests/images/citrus-psyllid-citrus-1569854467.jpg"
+  },
+  {
+    "name": "Pink Bollworm",
+    "scietific_name": "Pectinophora gossypiella",
+    "fungus": "Insect",
+    "image": "assets/pests/images/pink-bollworm-cotton-1559816107.jpg"
+  },
+  {
+    "name": "Bacterial Blight of Cotton",
+    "scietific_name": "Xanthomonas citri subsp. malvacearum",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-blight-of-cotton-1.jpg"
+  },
+  {
+    "name": "Potato Y Virus",
+    "scietific_name": "PVY",
+    "fungus": "Insect",
+    "image": "assets/pests/images/potato-y-virus-1.jpg"
+  },
+  {
+    "name": "Onion Yellow Dwarf",
+    "scietific_name": "OYDV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/onion-yellow-dwarf-1.jpg"
+  },
+  {
+    "name": "Soybean Mosaic Virus",
+    "scietific_name": "SMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/soybean-mosaic-virus-1.jpg"
+  },
+  {
+    "name": "Papaya Mosaic Virus",
+    "scietific_name": "PapMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/papaya-mosaic-virus-1.jpg"
+  },
+  {
+    "name": "Root Rot of Cotton",
+    "scietific_name": "Macrophomina phaseolina",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/root-rot-of-cotton-1.jpg"
+  },
+  {
+    "name": "Banana Bract Mosaic Virus",
+    "scietific_name": "BBrMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/banana-bract-mosaic-virus-1.jpg"
+  },
+  {
+    "name": "Potato S Virus",
+    "scietific_name": "PVS",
+    "fungus": "Virus",
+    "image": "assets/pests/images/potato-s-virus-potato-1575475070.jpg"
+  },
+  {
+    "name": "Brinjal Shoot and Fruit Borer",
+    "scietific_name": "Leucinodes orbonalis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/brinjal-shoot-and-fruit-borer-eggplant-5.jpg"
+  },
+  {
+    "name": "Downy Mildew of Cucurbits",
+    "scietific_name": "Pseudoperonospora cubensis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/downy-mildew-of-cucurbits-pumpkin-1.jpg"
+  },
+  {
+    "name": "Sunburn",
+    "scietific_name": "Abiotic Sunburn",
+    "fungus": "Other",
+    "image": "assets/pests/images/abiotic-sunburn-tomato-1551342670.jpg"
+  },
+  {
+    "name": "Cucumber Mosaic Virus on Banana",
+    "scietific_name": "CMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/cucumber-mosaic-virus-on-banana-banana-1563273296.jpg"
+  },
+  {
+    "name": "Root and Foot Rot",
+    "scietific_name": "Cochliobolus sativus",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/root-and-foot-rot-1.jpg"
+  },
+  {
+    "name": "Phomopsis Blight",
+    "scietific_name": "Phomopsis vexans",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/phomopsis-blight-1.jpg"
+  },
+  {
+    "name": "Bhendi Yellow Vein Mosaic Virus",
+    "scietific_name": "BYVMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/bhendi-yellow-vein-mosaic-virus-okra-1562575597.jpg"
+  },
+  {
+    "name": "Stemphylium Leaf Blight of Onion",
+    "scietific_name": "Pleospora allii",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/stemphylium-leaf-blight-of-onion-onion-1563359992.jpg"
+  },
+  {
+    "name": "Cucumber Mosaic Virus of Pepper",
+    "scietific_name": "CMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/cucumber-mosaic-virus-of-pepper-pepper-1.jpg"
+  },
+  {
+    "name": "Banded Leaf and Sheath Blight",
+    "scietific_name": "Rhizoctonia solani",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/banded-leaf-and-sheath-blight-maize-1550575971.jpg"
+  },
+  {
+    "name": "May Beetles",
+    "scietific_name": "Phyllophaga  spp.",
+    "fungus": "Insect",
+    "image": "assets/pests/images/white-grubs-2.jpg"
+  },
+  {
+    "name": "Red Cotton Bug",
+    "scietific_name": "Dysdercus cingulatus",
+    "fungus": "Insect",
+    "image": "assets/pests/images/red-cotton-bug-cotton-1555415430.jpg"
+  },
+  {
+    "name": "Gray Leaf Spot",
+    "scietific_name": "Stemphylium solani",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/gray-leaf-spot-tomato-1576080946.jpg"
+  },
+  {
+    "name": "Powdery Mildew of Pepper",
+    "scietific_name": "Leveillula taurica",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/powdery-mildew-of-pepper-pepper-1560235417.jpg"
+  },
+  {
+    "name": "Wet Rot",
+    "scietific_name": "Choanephora cucurbitarum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/choanephora-blight-of-pepper-pepper-1.jpg"
+  },
+  {
+    "name": "Spotted Bollworm",
+    "scietific_name": "Earias vittella",
+    "fungus": "Insect",
+    "image": "assets/pests/images/spotted-bollworm-cotton-1551217276.jpg"
+  },
+  {
+    "name": "Myrothecium Leaf Spot",
+    "scietific_name": "Myrothecium roridum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/myrothecium-leaf-spot-cotton-1.jpg"
+  },
+  {
+    "name": "Soybean Stem Miner",
+    "scietific_name": "Melanagromyza sojae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/soybean-stem-miner-soybean-1576077736.jpg"
+  },
+  {
+    "name": "Soybean Girdle Beetle",
+    "scietific_name": "Obereopsis brevis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/soybean-girdle-beetle-soybean-1576077053.jpg"
+  },
+  {
+    "name": "Fruit Molds",
+    "scietific_name": "Aspergillus spp.",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/fruit-molds-1.jpg"
+  },
+  {
+    "name": "Dusty Cotton Stainer",
+    "scietific_name": "Oxycarenus hyalinipennis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/dusty-cotton-stainer-1550423449.jpg"
+  },
+  {
+    "name": "Sugarcane Pyrilla",
+    "scietific_name": "Pyrilla perpusilla",
+    "fungus": "Insect",
+    "image": "assets/pests/images/sugarcane-pyrilla-sugarcane-1566895481.jpg"
+  },
+  {
+    "name": "Termites",
+    "scietific_name": "Termitidae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/termites-1550426230.jpg"
+  },
+  {
+    "name": "Citrus Butterfly",
+    "scietific_name": "Papilio demoleus",
+    "fungus": "Insect",
+    "image": "assets/pests/images/citrus-butterfly-citrus-1558697772.jpg"
+  },
+  {
+    "name": "Potato Scab",
+    "scietific_name": "Streptomyces scabies",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/potato-scab-potato-1.jpg"
+  },
+  {
+    "name": "Bean Fly",
+    "scietific_name": "Ophiomyia phaseoli",
+    "fungus": "Insect",
+    "image": "assets/pests/images/bean-fly-bean-1.jpg"
+  },
+  {
+    "name": "Nematodes",
+    "scietific_name": "Nematoda",
+    "fungus": "Other",
+    "image": "assets/pests/images/nematodes-rice-1576516914.jpg"
+  },
+  {
+    "name": "Apple Root and Collar Rot",
+    "scietific_name": "Phytophthora cactorum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/phytophthora-root-rot-1.jpg"
+  },
+  {
+    "name": "Brown Rot",
+    "scietific_name": "Monilinia laxa",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/brown-rot-cherry-1.jpg"
+  },
+  {
+    "name": "Fruit Rot",
+    "scietific_name": "Monilinia fructigena",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/fruit-rot-1.jpg"
+  },
+  {
+    "name": "Bitter Rot",
+    "scietific_name": "Glomerella cingulata",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/bitter-rot-apple-1.jpg"
+  },
+  {
+    "name": "Potassium Deficiency",
+    "scietific_name": "Potassium Deficiency",
+    "fungus": "Deficiency",
+    "image": "assets/pests/images/potassium-deficiency-bean-1569419194.jpg"
+  },
+  {
+    "name": "Iron Deficiency",
+    "scietific_name": "Iron Deficiency",
+    "fungus": "Deficiency",
+    "image": "assets/pests/images/iron-deficiency-gram-1563957686.jpg"
+  },
+  {
+    "name": "Botryosphaeria Dieback",
+    "scietific_name": "Botryosphaeriaceae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/botryosphaeria-dieback-apple-1.jpg"
+  },
+  {
+    "name": "Green Citrus Aphid",
+    "scietific_name": "Aphis spiraecola",
+    "fungus": "Insect",
+    "image": "assets/pests/images/green-citrus-aphid-citrus-3.jpg"
+  },
+  {
+    "name": "Leafcutter Bees",
+    "scietific_name": "Megachile sp.",
+    "fungus": "Insect",
+    "image": "assets/pests/images/leafcutter-bees-citrus-1574261796.jpg"
+  },
+  {
+    "name": "Alternaria Leaf Spot of Soybean",
+    "scietific_name": "Alternaria spp.",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/alternaria-leaf-spot-of-soybean-soybean-1575478397.jpg"
+  },
+  {
+    "name": "Budworm",
+    "scietific_name": "Scrobipalpa sp.",
+    "fungus": "Insect",
+    "image": "assets/pests/images/budworm-eggplant-1574857262.jpg"
+  },
+  {
+    "name": "Rust of Sorghum",
+    "scietific_name": "Puccinia purpurea",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/rust-of-sorghum-sorghum-1.jpg"
+  },
+  {
+    "name": "Herbicide Growth Damage",
+    "scietific_name": "Herbicides Growth Regulators",
+    "fungus": "Other",
+    "image": "assets/pests/images/herbicide-growth-damage-tomato-1567752817.jpg"
+  },
+  {
+    "name": "Leaf Variegation",
+    "scietific_name": "Chimera",
+    "fungus": "Other",
+    "image": "assets/pests/images/leaf-variegation-cucumber-1553072375.jpg"
+  },
+  {
+    "name": "Wind Damage on Citrus",
+    "scietific_name": "Wind Damage on Citrus",
+    "fungus": "Other",
+    "image": "assets/pests/images/wind-damage-on-citrus-citrus-1569589466.jpg"
+  },
+  {
+    "name": "Beet Armyworm",
+    "scietific_name": "Spodoptera exigua",
+    "fungus": "Insect",
+    "image": "assets/pests/images/beet-armyworm-soybean-1.jpg"
+  },
+  {
+    "name": "Broad nosed Weevils",
+    "scietific_name": "Myllocerus sp.",
+    "fungus": "Insect",
+    "image": "assets/pests/images/broad-nosed-weevils-soybean-1576492729.jpg"
+  },
+  {
+    "name": "Wheat Blast",
+    "scietific_name": "Magnaporthe oryzae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/wheat-blast--wheat-1.jpg"
+  },
+  {
+    "name": "Tobacco Mosaic Virus",
+    "scietific_name": "Tobacco mosaic virus",
+    "fungus": "Virus",
+    "image": "assets/pests/images/tobacco-mosaic-virus-tobacco-1568036251.jpg"
+  },
+  {
+    "name": "Rust on Blackgram",
+    "scietific_name": "Uromyces phaseoli",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/rust-on-blackgram-gram-1.jpg"
+  },
+  {
+    "name": "Rice Case Worm",
+    "scietific_name": "Parapoynx stagnalis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/rice-case-worm-1.jpg"
+  },
+  {
+    "name": "Narrow Brown Leaf Spot of Rice",
+    "scietific_name": "Sphaerulina oryzina",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/narrow-brown-leaf-spot-of-rice-2.jpg"
+  },
+  {
+    "name": "Leaf Scald of Rice",
+    "scietific_name": "Monographella albescens",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/leaf-scald-of-rice-1.jpg"
+  },
+  {
+    "name": "Bakanae and Foot Rot",
+    "scietific_name": "Gibberella fujikuroi",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/bakanae-and-foot-rot-rice-1.jpg"
+  },
+  {
+    "name": "Rice Panicle Mite",
+    "scietific_name": "Steneotarsonemus spinki",
+    "fungus": "Mite",
+    "image": "assets/pests/images/rice-panicle-mite-rice-1.jpg"
+  },
+  {
+    "name": "Sheath Rot of Rice",
+    "scietific_name": "Sarocladium oryzae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/sheath-rot-of-rice-rice-1553620104.jpg"
+  },
+  {
+    "name": "Eyespot of Sugarcane",
+    "scietific_name": "Bipolaris sacchari",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/eyespot-of-sugarcane-sugarcane-1569943189.jpg"
+  },
+  {
+    "name": "Tomato Zippering",
+    "scietific_name": "Physiological Disorder",
+    "fungus": "Other",
+    "image": "assets/pests/images/tomato-zippering-tomato-1.jpg"
+  },
+  {
+    "name": "Early Shoot Borer",
+    "scietific_name": "Chilo infuscatellus",
+    "fungus": "Insect",
+    "image": "assets/pests/images/early-shoot-borer-1.jpg"
+  },
+  {
+    "name": "Bacterial Panicle Blight",
+    "scietific_name": "Burkholderia spp.",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-panicle-blight-1.jpg"
+  },
+  {
+    "name": "Sugarcane Common Rust",
+    "scietific_name": "Puccinia melanocephala",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/sugarcane-common-rust-sugarcane-1556454629.jpg"
+  },
+  {
+    "name": "Sudden Death Syndrome",
+    "scietific_name": "Fusarium virguliforme",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/sudden-death-syndrome-1.jpg"
+  },
+  {
+    "name": "Purple Seed Stain of Soybean",
+    "scietific_name": "Cercospora kikuchii",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/purple-seed-stain-of-soybean-1.jpg"
+  },
+  {
+    "name": "Frogeye Leaf Spot",
+    "scietific_name": "Cercospora sojina",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/frogeye-leaf-spot-soybean-1.jpg"
+  },
+  {
+    "name": "Fusarium Ear Rot",
+    "scietific_name": "Fusarium verticillioides",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/fusarium-ear-rot-maize-1.jpg"
+  },
+  {
+    "name": "Snow Mold of Cereals",
+    "scietific_name": "Monographella nivalis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/snow-mold-of-cereals-wheat-1.jpg"
+  },
+  {
+    "name": "Velvetbean Caterpillar",
+    "scietific_name": "Anticarsia gemmatalis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/velvetbean-caterpillar-peanut-1570616699.jpg"
+  },
+  {
+    "name": "Citrus Blackfly",
+    "scietific_name": "Aleurocanthus woglumi",
+    "fungus": "Insect",
+    "image": "assets/pests/images/citrus-blackfly-citrus-1.jpg"
+  },
+  {
+    "name": "Anthracnose of Cucurbits",
+    "scietific_name": "Glomerella lagenarium",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/anthracnose-of-cucurbits-zucchini-1550846250.jpg"
+  },
+  {
+    "name": "Red Hairy Caterpillar",
+    "scietific_name": "Amsacta albistriga",
+    "fungus": "Insect",
+    "image": "assets/pests/images/red-hairy-caterpillar-peanut-1570616779.jpg"
+  },
+  {
+    "name": "Cereal Leaf Beetle",
+    "scietific_name": "Oulema melanopus",
+    "fungus": "Insect",
+    "image": "assets/pests/images/cereal-leaf-beetle-1.jpg"
+  },
+  {
+    "name": "Bacterial Stalk Rot of Maize",
+    "scietific_name": "Dickeya zeae",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-stalk-rot-of-maize-1.jpg"
+  },
+  {
+    "name": "Ascochyta Blight",
+    "scietific_name": "Didymella rabiei",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/ascochyta-blight-soybean-1.jpg"
+  },
+  {
+    "name": "Chickpea Rust",
+    "scietific_name": "Uromyces ciceris-arietini",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/chickpea-rust-chickpea-1.jpg"
+  },
+  {
+    "name": "Mango Shoot Borer",
+    "scietific_name": "Chlumetia transversa",
+    "fungus": "Insect",
+    "image": "assets/pests/images/mango-shoot-borer-mango-1550851598.jpg"
+  },
+  {
+    "name": "Cercospora Leaf Spot of Eggplant",
+    "scietific_name": "Cercospora melongenae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/cercospora-leaf-spot-of-eggplant-eggplant-1568112525.jpg"
+  },
+  {
+    "name": "Brown Spot of Soybean",
+    "scietific_name": "Septoria glycines",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/brown-spot-of-soybean-1.jpg"
+  },
+  {
+    "name": "Cucumber Green Mottle Virus",
+    "scietific_name": "CGMMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/cucumber-green-mottle-virus-cucumber-1.jpg"
+  },
+  {
+    "name": "Stem Rot",
+    "scietific_name": "Sclerotinia sclerotiorum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/sclerotinia-stem-rot-pepper-1560243046.jpg"
+  },
+  {
+    "name": "Target Spot of Soybean",
+    "scietific_name": "Corynespora cassiicola",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/target-spot-of-soybean-1.jpg"
+  },
+  {
+    "name": "Black Cutworm",
+    "scietific_name": "Agrotis ipsilon",
+    "fungus": "Insect",
+    "image": "assets/pests/images/black-cutworm-tomato-1552660373.jpg"
+  },
+  {
+    "name": "Grey Leaf Spot of Maize",
+    "scietific_name": "Cercospora zeae-maydis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/grey-leaf-spot-of-maize-maize-1.jpg"
+  },
+  {
+    "name": "Codling Moth",
+    "scietific_name": "Cydia pomonella",
+    "fungus": "Insect",
+    "image": "assets/pests/images/codling-moth-apple-1.jpg"
+  },
+  {
+    "name": "White Rot",
+    "scietific_name": "Stromatinia cepivora",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/white-rot-onion-1563283981.jpg"
+  },
+  {
+    "name": "Goss Wilt",
+    "scietific_name": "Clavibacter michiganensis",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/goss's-wilt--maize-2.jpg"
+  },
+  {
+    "name": "Silver Scurf",
+    "scietific_name": "Helminthosporium solani",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/silver-scurf-potato-1.jpg"
+  },
+  {
+    "name": "Brown Soft Scale",
+    "scietific_name": "Coccus hesperidum",
+    "fungus": "Insect",
+    "image": "assets/pests/images/brown-soft-scale-citrus-1.jpg"
+  },
+  {
+    "name": "Maize Smut",
+    "scietific_name": "Ustilago maydis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/maize-smut-maize-1.jpg"
+  },
+  {
+    "name": "Cherry Leaf Spot",
+    "scietific_name": "Blumeriella jaapii",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/cherry-leaf-spot-1.jpg"
+  },
+  {
+    "name": "Eggplant Leaf Roller",
+    "scietific_name": "Eublemma olivacea",
+    "fungus": "Insect",
+    "image": "assets/pests/images/eggplant-leaf-roller-eggplant-1566556788.jpg"
+  },
+  {
+    "name": "Growth Cracks in Tomato",
+    "scietific_name": "Fruit Deformation",
+    "fungus": "Other",
+    "image": "assets/pests/images/growth-cracks-in-tomato-tomato-3.jpg"
+  },
+  {
+    "name": "Hairy Caterpillars",
+    "scietific_name": "Euproctis fraterna",
+    "fungus": "Insect",
+    "image": "assets/pests/images/hairy-caterpillars-mango-1570615750.jpg"
+  },
+  {
+    "name": "Eggplant Lace Bug",
+    "scietific_name": "Gargaphia solani",
+    "fungus": "Insect",
+    "image": "assets/pests/images/eggplant-lace-bug-eggplant-1558099904.jpg"
+  },
+  {
+    "name": "Citrus Black Spot",
+    "scietific_name": "Phyllosticta citricarpa",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/citrus-black-spot-citrus-1.jpg"
+  },
+  {
+    "name": "Jewel Beetle",
+    "scietific_name": "Sphenoptera indica",
+    "fungus": "Insect",
+    "image": "assets/pests/images/jewel-beetle-1.jpg"
+  },
+  {
+    "name": "Bacterial Canker of Tomato",
+    "scietific_name": "Clavibacter michiganensis subs. michiganensis",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-canker-of-tomato-1.jpg"
+  },
+  {
+    "name": "Oriental Armyworm",
+    "scietific_name": "Mythimna separata",
+    "fungus": "Insect",
+    "image": "assets/pests/images/armyworm-maize-3.jpg"
+  },
+  {
+    "name": "Mango Shoot Psyllid",
+    "scietific_name": "Apsylla cistellata",
+    "fungus": "Insect",
+    "image": "assets/pests/images/mango-shoot-psyllid-mango-1.jpg"
+  },
+  {
+    "name": "Oriental Spider Mite",
+    "scietific_name": "Eutetranychus orientalis",
+    "fungus": "Mite",
+    "image": "assets/pests/images/oriental-spider-mite-citrus-1574256649.jpg"
+  },
+  {
+    "name": "Phomopsis Cane and Leaf Spot",
+    "scietific_name": "Phomopsis viticola",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/phomopsis-cane-and-leaf-spot-grape-1.jpg"
+  },
+  {
+    "name": "Fusarium Wilt",
+    "scietific_name": "Fusarium oxysporum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/fusarium-wilt-onion-1562843172.jpg"
+  },
+  {
+    "name": "Papaya Fruit Fly",
+    "scietific_name": "Toxotrypana curvicauda",
+    "fungus": "Insect",
+    "image": "assets/pests/images/papaya-fruit-fly-1.jpg"
+  },
+  {
+    "name": "Alternaria Spot",
+    "scietific_name": "Alternaria brassicae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/alternaria-spot-cabbage-1563191236.jpg"
+  },
+  {
+    "name": "Sugarcane White Grub",
+    "scietific_name": "Lepidiota stigma",
+    "fungus": "Insect",
+    "image": "assets/pests/images/sugarcane-white-grub-1.jpg"
+  },
+  {
+    "name": "Foot and Collar Rot",
+    "scietific_name": "Athelia rolfsii",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/foot-and-collar-rot-peanut-1550840718.jpg"
+  },
+  {
+    "name": "Tomato Leaf Miner",
+    "scietific_name": "Tuta Absoluta",
+    "fungus": "Insect",
+    "image": "assets/pests/images/tuta-absoluta-1.jpg"
+  },
+  {
+    "name": "Septoria Tritici Blotch",
+    "scietific_name": "Mycosphaerella graminicola",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/septoria-tritici-blotch-wheat-1569570037.jpg"
+  },
+  {
+    "name": "Pearl Millet Ergot",
+    "scietific_name": "Claviceps fusiformis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/pearl-millet-ergot-millet-1.jpg"
+  },
+  {
+    "name": "Tomato Catface",
+    "scietific_name": "Physiological Disorder",
+    "fungus": "Other",
+    "image": "assets/pests/images/tomato-catface-tomato-2.jpg"
+  },
+  {
+    "name": "Rice Grassy Stunt Virus",
+    "scietific_name": "RGSV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/rice-grassy-stunt-virus-rice-1.jpg"
+  },
+  {
+    "name": "Green and Blue Molds",
+    "scietific_name": "Penicillium spp.",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/green-and-blue-molds-citrus-1.jpg"
+  },
+  {
+    "name": "Blackleg of Potato",
+    "scietific_name": "Pectobacterium atrosepticum",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/blackleg-1.jpg"
+  },
+  {
+    "name": "Cercospora Leaf Spot of Legumes",
+    "scietific_name": "Cercospora canescens",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/cercospora-leaf-spot-pigeonpea-1.jpg"
+  },
+  {
+    "name": "Phoma Blight",
+    "scietific_name": "Peyronellaea glomerata",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/phoma-blight-mango-1550581511.jpg"
+  },
+  {
+    "name": "Grey Mildew of Cotton",
+    "scietific_name": "Mycosphaerella areola",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/grey-mildew-of-cotton-cotton-3.jpg"
+  },
+  {
+    "name": "Cigar End Rot",
+    "scietific_name": "Trachysphaera fructigena",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/cigar-end-rot-banana-1563270818.jpg"
+  },
+  {
+    "name": "Phyllosticta Leaf Spot",
+    "scietific_name": "Nothophoma arachidis-hypogaeae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/phyllosticta-leaf-spot-4.jpg"
+  },
+  {
+    "name": "Anthracnose Leaf Blight and Stalk Rot",
+    "scietific_name": "Colletotrichum graminicola",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/anthracnose-leaf-blight-sorghum-1.jpg"
+  },
+  {
+    "name": "Semilooper",
+    "scietific_name": "Autographa nigrisigna",
+    "fungus": "Insect",
+    "image": "assets/pests/images/semilooper-1.jpg"
+  },
+  {
+    "name": "Sugar Spot",
+    "scietific_name": "Sugar Spot",
+    "fungus": "Other",
+    "image": "assets/pests/images/sugar-spot-banana-1563886639.jpg"
+  },
+  {
+    "name": "Eyespot of Cereals",
+    "scietific_name": "Oculimacula yallundae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/eyespot-of-cereals-2.jpg"
+  },
+  {
+    "name": "Southern Rust of Maize",
+    "scietific_name": "Puccinia polysora",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/southern-rust-of-maize-maize-1.jpg"
+  },
+  {
+    "name": "Soybean Rust",
+    "scietific_name": "Phakopsora pachyrhizi",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/rust-of-soybean-1.jpg"
+  },
+  {
+    "name": "Anthracnose of Soybean",
+    "scietific_name": "Colletotrichum truncatum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/anthracnose-of-soybean-1.jpg"
+  },
+  {
+    "name": "Rice Hispa",
+    "scietific_name": "Dicladispa armigera",
+    "fungus": "Insect",
+    "image": "assets/pests/images/rice-hispa-rice-1553250919.jpg"
+  },
+  {
+    "name": "Ergot of Sorghum",
+    "scietific_name": "Claviceps africana",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/ergot-of-sorghum-1.jpg"
+  },
+  {
+    "name": "Covered Kernel Smut of Sorghum",
+    "scietific_name": "Sporisorium sorghi",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/covered-kernel-smut-of-sorghum-sorghum-1.jpg"
+  },
+  {
+    "name": "Black Leg",
+    "scietific_name": "Plenodomus lingam",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/black-leg-of-rapeseed-1.jpg"
+  },
+  {
+    "name": "Citrus Thrips",
+    "scietific_name": "Scirtothrips citri",
+    "fungus": "Insect",
+    "image": "assets/pests/images/citrus-thrips-citrus-1569589313.jpg"
+  },
+  {
+    "name": "Banana Scab Moth",
+    "scietific_name": "Nacoleia octasema",
+    "fungus": "Insect",
+    "image": "assets/pests/images/banana-scab-moth-1.jpg"
+  },
+  {
+    "name": "Powdery Mildew of Soybean",
+    "scietific_name": "Erysiphe diffusa",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/powdery-mildew-of-soybean-soybean-1.jpg"
+  },
+  {
+    "name": "Damping-Off of Seedlings",
+    "scietific_name": "Pythium spp.",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/damping-off-of-seedlings-1550839642.jpg"
+  },
+  {
+    "name": "Wireworms",
+    "scietific_name": "Elateridae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/wireworms-1.jpg"
+  },
+  {
+    "name": "Transparent Scale",
+    "scietific_name": "Aspidiotus destructor",
+    "fungus": "Insect",
+    "image": "assets/pests/images/transparent-scale-1.jpg"
+  },
+  {
+    "name": "Cotton Stem Weevil",
+    "scietific_name": "Pempherulus affinis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/cotton-stem-weevil-cotton-1.jpg"
+  },
+  {
+    "name": "Tungro",
+    "scietific_name": "RTBV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/tungro-rice-1553876278.jpg"
+  },
+  {
+    "name": "Sugarcane Mosaic Virus",
+    "scietific_name": "SCMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/sugarcane-mosaic-virus-sugarcane-1569243369.jpg"
+  },
+  {
+    "name": "Cotton Leaf Curl Virus",
+    "scietific_name": "CLCuV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/cotton-leaf-curl-virus-cotton-1.jpg"
+  },
+  {
+    "name": "Herbicide Bleach",
+    "scietific_name": "Herbicides Photosynthesis Inhibitors",
+    "fungus": "Other",
+    "image": "assets/pests/images/herbicide-bleach-cotton-1559728346.jpg"
+  },
+  {
+    "name": "Late Wilt of Maize",
+    "scietific_name": "Magnaporthiopsis maydis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/late-wilt-of-maize-maize-1.jpg"
+  },
+  {
+    "name": "Rust of Cotton",
+    "scietific_name": "Phakopsora gossypii",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/rust-of-cotton-cotton-1.jpg"
+  },
+  {
+    "name": "Bihar Hairy Caterpillar",
+    "scietific_name": "Spilarctia obliqua",
+    "fungus": "Insect",
+    "image": "assets/pests/images/bihar-hairy-caterpillar-soybean-1555590572.jpg"
+  },
+  {
+    "name": "Stem Blight of Soybean",
+    "scietific_name": "Diaporthe phaseolorum var. sojae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/stem-blight-of-soybean-soybean-1576079262.jpg"
+  },
+  {
+    "name": "Red Scale",
+    "scietific_name": "Aonidiella aurantii",
+    "fungus": "Insect",
+    "image": "assets/pests/images/red-scale-citrus-1.jpg"
+  },
+  {
+    "name": "Mirid Bugs",
+    "scietific_name": "Miridae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/mirid-bugs-cotton-1550427770.jpg"
+  },
+  {
+    "name": "Bacterial Black Spot of Mango",
+    "scietific_name": "Xanthomonas citri pv. mangiferaeindicae",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-black-spot-of-mango-mango-1552661351.jpg"
+  },
+  {
+    "name": "Cottony Cushion Scale",
+    "scietific_name": "Icerya purchasi",
+    "fungus": "Insect",
+    "image": "assets/pests/images/cottony-cushion-scale-1.jpg"
+  },
+  {
+    "name": "Fire Blight",
+    "scietific_name": "Erwinia amylovora",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/fire-blight-1.jpg"
+  },
+  {
+    "name": "Bacterial Blight of Soybean",
+    "scietific_name": "Pseudomonas savastanoi pv. glycinea",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-blight-of-soybean-1.jpg"
+  },
+  {
+    "name": "Black Spot Disease of Papaya",
+    "scietific_name": "Asperisporium caricae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/black-spot-disease-of-papaya-1.jpg"
+  },
+  {
+    "name": "Blight of Pepper",
+    "scietific_name": "Phytophthora capsici",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/blight-of-pepper-eggplant-1.jpg"
+  },
+  {
+    "name": "Eyespot of Maize",
+    "scietific_name": "Kabatiella zeae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/eyespot-of-maize-maize-1.jpg"
+  },
+  {
+    "name": "Citrus Red Mite",
+    "scietific_name": "Panonychus citri",
+    "fungus": "Mite",
+    "image": "assets/pests/images/citrus-red-mite-citrus-1.jpg"
+  },
+  {
+    "name": "Angular Leaf Scorch",
+    "scietific_name": "Pseudopezicula tetraspora",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/angular-leaf-scorch-1.jpg"
+  },
+  {
+    "name": "Potato Beetle",
+    "scietific_name": "Leptinotarsa decemlineata",
+    "fungus": "Insect",
+    "image": "assets/pests/images/potato-beetle-1.jpg"
+  },
+  {
+    "name": "Bacterial Leaf Streak",
+    "scietific_name": "Xanthomonas oryzae pv. oryzicola",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-leaf-streak-rice-1568373463.jpg"
+  },
+  {
+    "name": "Stink Bugs on Maize, Millet and Sorghum",
+    "scietific_name": "Euschistus spp.",
+    "fungus": "Insect",
+    "image": "assets/pests/images/stink-bugs-on-maize,-millet-and-sorghum-sorghum-1569848445.jpg"
+  },
+  {
+    "name": "Peach Scab",
+    "scietific_name": "Venturia carpophila",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/peach-scab-1.jpg"
+  },
+  {
+    "name": "Alternaria Brown Spot",
+    "scietific_name": "Alternaria alternata",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/alternaria-brown-spot-citrus-2.jpg"
+  },
+  {
+    "name": "European Maize Borer",
+    "scietific_name": "Ostrinia nubilalis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/european-maize-borer-maize-1.jpg"
+  },
+  {
+    "name": "Peach Leaf Curl",
+    "scietific_name": "Taphrina deformans",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/peach-leaf-curl-1.jpg"
+  },
+  {
+    "name": "Verticillium Wilt",
+    "scietific_name": "Verticillium spp.",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/verticillium-wilt-pepper-1560242968.jpg"
+  },
+  {
+    "name": "Maize Earworm",
+    "scietific_name": "Helicoverpa zea",
+    "fungus": "Insect",
+    "image": "assets/pests/images/maize-earworm-maize-3.jpg"
+  },
+  {
+    "name": "Head Smut",
+    "scietific_name": "Sphacelotheca reiliana",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/head-smut-maize-1557474386.jpg"
+  },
+  {
+    "name": "Clubroot",
+    "scietific_name": "Plasmodiophora brassicae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/clubroot-1.jpg"
+  },
+  {
+    "name": "Angular Leaf Spot Disease",
+    "scietific_name": "Pseudomonas syringae",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/angular-leaf-spot-disease-1.jpg"
+  },
+  {
+    "name": "Phaeosphaeria Leaf Spot",
+    "scietific_name": "Phaeosphaeria maydis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/phaeosphaeria-leaf-spot-1.jpg"
+  },
+  {
+    "name": "Downy Mildew",
+    "scietific_name": "Peronosporales",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/downy-mildew-onion-1.jpg"
+  },
+  {
+    "name": "Nitrogen Deficiency",
+    "scietific_name": "Nitrogen Deficiency",
+    "fungus": "Deficiency",
+    "image": "assets/pests/images/nitrogen-deficiency-millet-1569857250.jpg"
+  },
+  {
+    "name": "Bean Leaf Beetle",
+    "scietific_name": "Cerotoma trifurcata",
+    "fungus": "Insect",
+    "image": "assets/pests/images/bean-leaf-beetle-soybean-1.jpg"
+  },
+  {
+    "name": "Citrus Hindu Mite",
+    "scietific_name": "Schizotetranychus hindustanicus",
+    "fungus": "Mite",
+    "image": "assets/pests/images/citrus-hindu-mite-citrus-1.jpg"
+  },
+  {
+    "name": "Blossom End Rot",
+    "scietific_name": "Blossom End Rot",
+    "fungus": "Deficiency",
+    "image": "assets/pests/images/blossom-end-rot-pepper-1560242039.jpg"
+  },
+  {
+    "name": "Halo Blight",
+    "scietific_name": "Pseudomonas savastanoi pv. phaseolicola",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/halo-blight-1.jpg"
+  },
+  {
+    "name": "Phosphorus Deficiency",
+    "scietific_name": "Phosphorus Deficiency",
+    "fungus": "Deficiency",
+    "image": "assets/pests/images/phosphorus-deficiency-citrus-1574251660.jpg"
+  },
+  {
+    "name": "Anthracnose of Apple",
+    "scietific_name": "Neofabraea malicorticis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/anthracnose-of-apple-1.jpg"
+  },
+  {
+    "name": "Curculio Weevil",
+    "scietific_name": "Otiorhynchus cribricollis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/curculio-weevil-1.jpg"
+  },
+  {
+    "name": "Magnesium Deficiency",
+    "scietific_name": "Magnesium Deficiency",
+    "fungus": "Deficiency",
+    "image": "assets/pests/images/magnesium-deficiency-bean-1569419447.jpg"
+  },
+  {
+    "name": "Silver Leaf",
+    "scietific_name": "Chondrostereum purpureum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/silver-leaf-1.jpg"
+  },
+  {
+    "name": "Boron Deficiency",
+    "scietific_name": "Boron Deficiency",
+    "fungus": "Deficiency",
+    "image": "assets/pests/images/boron-deficiency-onion-1575463852.jpg"
+  },
+  {
+    "name": "Grape Tortrix Moth",
+    "scietific_name": "Argyrotaenia ljungiana",
+    "fungus": "Insect",
+    "image": "assets/pests/images/grape-tortrix-moth-1.jpg"
+  },
+  {
+    "name": "Oriental Fruit Moth",
+    "scietific_name": "Grapholita molesta",
+    "fungus": "Insect",
+    "image": "assets/pests/images/oriental-fruit-moth-peach-1.jpg"
+  },
+  {
+    "name": "Fruit Tree Leafroller",
+    "scietific_name": "Archips argyrospila",
+    "fungus": "Insect",
+    "image": "assets/pests/images/fruit-tree-leafroller-1.jpg"
+  },
+  {
+    "name": "Gall Mite",
+    "scietific_name": "Eriophyidae",
+    "fungus": "Mite",
+    "image": "assets/pests/images/gall-mite-1.jpg"
+  },
+  {
+    "name": "Bacterial Canker",
+    "scietific_name": "Pseudomonas syringae pv. syringae",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-canker-1550774366.jpg"
+  },
+  {
+    "name": "Manganese Deficiency",
+    "scietific_name": "Manganese Deficiency",
+    "fungus": "Deficiency",
+    "image": "assets/pests/images/manganese-deficiency-cucumber-1563963127.jpg"
+  },
+  {
+    "name": "Fruit Tree Canker",
+    "scietific_name": "Neonectria ditissima",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/fruit-tree-canker-1.jpg"
+  },
+  {
+    "name": "Dead Arm",
+    "scietific_name": "Eutypa lata",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/dead-arm-1.jpg"
+  },
+  {
+    "name": "Western Plant Bug",
+    "scietific_name": "Lygus hesperus",
+    "fungus": "Insect",
+    "image": "assets/pests/images/western-plant-bug-1.jpg"
+  },
+  {
+    "name": "Winter Moth",
+    "scietific_name": "Operophtera brumata",
+    "fungus": "Insect",
+    "image": "assets/pests/images/winter-moth-1.jpg"
+  },
+  {
+    "name": "Ermine Moth",
+    "scietific_name": "Yponomeutidae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/ermine-moth-1.jpg"
+  },
+  {
+    "name": "Fruit Tree Bark Beetle",
+    "scietific_name": "Scolytus mali",
+    "fungus": "Insect",
+    "image": "assets/pests/images/fruit-tree-bark-beetle-1.jpg"
+  },
+  {
+    "name": "Herbicide Burn",
+    "scietific_name": "Herbicides Cell Membrane Disruptors",
+    "fungus": "Other",
+    "image": "assets/pests/images/herbicide-damage-b-cotton-1565947041.jpg"
+  },
+  {
+    "name": "Wind Damage on Cucumber",
+    "scietific_name": "Wind Damage on Cucumber",
+    "fungus": "Other",
+    "image": "assets/pests/images/wind-damage-on-cucumber-cucumber-1563444037.jpg"
+  },
+  {
+    "name": "Citrus Leprosis",
+    "scietific_name": "Citrus leprosis virus sensu lato",
+    "fungus": "Virus",
+    "image": "assets/pests/images/citrus-leprosis-1.jpg"
+  },
+  {
+    "name": "Peach Twig Borer",
+    "scietific_name": "Anarsia lineatella",
+    "fungus": "Insect",
+    "image": "assets/pests/images/peach-twig-borer-peach-1.jpg"
+  },
+  {
+    "name": "Oleander Scale",
+    "scietific_name": "Aspidiotus nerii",
+    "fungus": "Insect",
+    "image": "assets/pests/images/oleander-scale-1.jpg"
+  },
+  {
+    "name": "Alternaria Leaf Spot Peanut",
+    "scietific_name": "Alternaria spp.",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/alternaria-leaf-spot-peanut-peanut-1.jpg"
+  },
+  {
+    "name": "Udbatta Disease of Rice",
+    "scietific_name": "Balansia oryzae-sativae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/udbatta-disease-of-rice-1.jpg"
+  },
+  {
+    "name": "Cassava mosaic disease",
+    "scietific_name": "CMD",
+    "fungus": "Virus",
+    "image": "assets/pests/images/cassava-mosaic-disease-manioc-1561129470.jpg"
+  },
+  {
+    "name": "Sunburn in Pistachio",
+    "scietific_name": "Abiotic Sunburn",
+    "fungus": "Other",
+    "image": "assets/pests/images/abiotic-sunburn-in-pistachio-1.jpg"
+  },
+  {
+    "name": "Banana Xanthomonas Wilt",
+    "scietific_name": "Xanthomonas campestris pv. musacearum",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/banana-xanthomonas-wilt-1.jpg"
+  },
+  {
+    "name": "Bean Leafroller",
+    "scietific_name": "Urbanus proteus",
+    "fungus": "Insect",
+    "image": "assets/pests/images/bean-leafroller-1.jpg"
+  },
+  {
+    "name": "Gummy Stem Blight of Cucurbits",
+    "scietific_name": "Stagonosporopsis cucurbitacearum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/gummy-stem-blight-of-cucurbits-melon-1.jpg"
+  },
+  {
+    "name": "Wheat Dwarf Virus",
+    "scietific_name": "WDV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/wheat-dwarf-virus-wheat-1.jpg"
+  },
+  {
+    "name": "Black Rot of Pineapple",
+    "scietific_name": "Ceratocystis paradoxa",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/sugarcane-pineapple-disease-sugarcane-1.jpg"
+  },
+  {
+    "name": "European Earwig",
+    "scietific_name": "Forficula auricularia",
+    "fungus": "Insect",
+    "image": "assets/pests/images/european-earwig-1.jpg"
+  },
+  {
+    "name": "Stem and Root Rot of Soybean",
+    "scietific_name": "Phytophthora sojae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/stem-and-root-rot-of-soybean-soybean-1.jpg"
+  },
+  {
+    "name": "Northern Stem Canker",
+    "scietific_name": "Diaporthe caulivora",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/northern-stem-canker-soybean-1.jpg"
+  },
+  {
+    "name": "Tomato Russeting",
+    "scietific_name": "Fruit Deformation",
+    "fungus": "Other",
+    "image": "assets/pests/images/tomato-russeting-tomato-1.jpg"
+  },
+  {
+    "name": "Northern Leaf Spot of Maize",
+    "scietific_name": "Cochliobolus carbonum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/northern-leaf-spot-of-maize-1.jpg"
+  },
+  {
+    "name": "Take All",
+    "scietific_name": "Gaeumannomyces graminis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/take-all-wheat-1.jpg"
+  },
+  {
+    "name": "Bean Shoot Borer",
+    "scietific_name": "Epinotia aporema",
+    "fungus": "Insect",
+    "image": "assets/pests/images/bean-shoot-borer-1.jpg"
+  },
+  {
+    "name": "Almond Bark Beetle",
+    "scietific_name": "Scolytus amygdali",
+    "fungus": "Insect",
+    "image": "assets/pests/images/almond-bark-beetle-1.jpg"
+  },
+  {
+    "name": "Olive Scale",
+    "scietific_name": "Parlatoria oleae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/olive-scale-1.jpg"
+  },
+  {
+    "name": "Olive Bark Beetle",
+    "scietific_name": "Phloeotribus scarabaeoides",
+    "fungus": "Insect",
+    "image": "assets/pests/images/olive-bark-beetle-1.jpg"
+  },
+  {
+    "name": "Olive Fruit Fly",
+    "scietific_name": "Bactrocera oleae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/olive-fruit-fly-1.jpg"
+  },
+  {
+    "name": "Jasmine Moth",
+    "scietific_name": "Palpita unionalis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/jasmine-moth-1.jpg"
+  },
+  {
+    "name": "Olive Moth",
+    "scietific_name": "Prays oleae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/olive-moth-1.jpg"
+  },
+  {
+    "name": "Black Scale",
+    "scietific_name": "Saissetia oleae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/black-scale-citrus-1556093905.jpg"
+  },
+  {
+    "name": "Pear Leaf Blister Mite",
+    "scietific_name": "Eriophyes pyri",
+    "fungus": "Mite",
+    "image": "assets/pests/images/pear-leaf-blister-mite-pear-1.jpg"
+  },
+  {
+    "name": "Grape Berry Moth",
+    "scietific_name": "Lobesia botrana",
+    "fungus": "Insect",
+    "image": "assets/pests/images/grape-berry-moth-1.jpg"
+  },
+  {
+    "name": "Apricot Chlorotic Leaf Roll",
+    "scietific_name": "Phytoplasma prunorum",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/apricot-chlorotic-leaf-roll--1.jpg"
+  },
+  {
+    "name": "Grape Bud Moth",
+    "scietific_name": "Eupoecilia ambiguella",
+    "fungus": "Insect",
+    "image": "assets/pests/images/grape-bud-moth-grape-1.jpg"
+  },
+  {
+    "name": "Citrus Chlorotic Dwarf Virus",
+    "scietific_name": "CCDV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/citrus-chlorotic-dwarf-virus-citrus-1.jpg"
+  },
+  {
+    "name": "Bacterial Leaf Streak of Maize",
+    "scietific_name": "Xanthomonas vasicola pv. vasculorum",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-leaf-streak-of-maize-maize-1.jpg"
+  },
+  {
+    "name": "Maize Bushy Stunt Phytoplasma",
+    "scietific_name": "Phytoplasma asteris",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/maize-bushy-stunt-phytoplasma-maize-1575286120.jpg"
+  },
+  {
+    "name": "Maize Lethal Necrosis Disease",
+    "scietific_name": "MLND",
+    "fungus": "Virus",
+    "image": "assets/pests/images/maize-lethal-necrosis-disease-maize-1.jpg"
+  },
+  {
+    "name": "Carrot Fly",
+    "scietific_name": "Chamaepsila rosae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/carrot-fly-1.jpg"
+  },
+  {
+    "name": "Pistachio Beetle",
+    "scietific_name": "Chaetoptelius vestitus",
+    "fungus": "Insect",
+    "image": "assets/pests/images/pistachio-beetle-1.jpg"
+  },
+  {
+    "name": "Castor Semilooper",
+    "scietific_name": "Ophiusa melicerta",
+    "fungus": "Insect",
+    "image": "assets/pests/images/castor-semilooper-soybean-1556090905.jpg"
+  },
+  {
+    "name": "Strawberry Blossom Weevil",
+    "scietific_name": "Anthonomus rubi",
+    "fungus": "Insect",
+    "image": "assets/pests/images/strawberry-blossom-weevil-1.jpg"
+  },
+  {
+    "name": "Armillaria Root Rot",
+    "scietific_name": "Armillaria mellea",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/armillaria-root-rot-1.jpg"
+  },
+  {
+    "name": "Grapevine Leafroll",
+    "scietific_name": "GLD",
+    "fungus": "Virus",
+    "image": "assets/pests/images/grapevine-leafroll-1.jpg"
+  },
+  {
+    "name": "Jacket Rot",
+    "scietific_name": "Monilinia spp.",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/jacket-rot-1.jpg"
+  },
+  {
+    "name": "Anthracnose of Almond",
+    "scietific_name": "Colletotrichum acutatum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/anthracnose-of-almond-1.jpg"
+  },
+  {
+    "name": "Crown Rust of Grasses",
+    "scietific_name": "Puccinia coronata",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/crown-rust-of-grasses-1.jpg"
+  },
+  {
+    "name": "Sugarcane Ratoon Stunting Disease",
+    "scietific_name": "Leifsonia xyli",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/sugarcane-ratoon-stunting-disease-1.jpg"
+  },
+  {
+    "name": "Rice Stalk Stinkbug",
+    "scietific_name": "Tibraca limbativentris",
+    "fungus": "Insect",
+    "image": "assets/pests/images/rice-stalk-stinkbug-1.jpg"
+  },
+  {
+    "name": "Rice Grasshopper",
+    "scietific_name": "Oxya intricata",
+    "fungus": "Insect",
+    "image": "assets/pests/images/rice-grasshopper-1.jpg"
+  },
+  {
+    "name": "Slugs and Snails",
+    "scietific_name": "Gastropoda",
+    "fungus": "Other",
+    "image": "assets/pests/images/slug-pepper-1560242449.jpg"
+  },
+  {
+    "name": "Citrus Stubborn Disease",
+    "scietific_name": "Spiroplasma citri",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/citrus-stubborn-disease-citrus-1.jpg"
+  },
+  {
+    "name": "Stink Bugs on Soybean",
+    "scietific_name": "Acrosternum hilare",
+    "fungus": "Insect",
+    "image": "assets/pests/images/stink-bugs-on-soybean-soybean-1.jpg"
+  },
+  {
+    "name": "Cassava Bacterial Blight",
+    "scietific_name": "Xanthomonas axonopodis pv. manihotis",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/cassava-bacterial-blight-manioc-1.jpg"
+  },
+  {
+    "name": "Citrus Variegated Chlorosis",
+    "scietific_name": "Xylella fastidiosa subsp. pauca",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/citrus-variegated-chlorosis-1.jpg"
+  },
+  {
+    "name": "Head Miner",
+    "scietific_name": "Heliocheilus albipunctella",
+    "fungus": "Insect",
+    "image": "assets/pests/images/head-miner-1.jpg"
+  },
+  {
+    "name": "Olive Knot",
+    "scietific_name": "Pseudomonas savastanoi pv. savastanoi",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/olive-knot-1.jpg"
+  },
+  {
+    "name": "Angular Leaf Spot of Strawberry",
+    "scietific_name": "Xanthomonas fragariae",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/angular-leaf-spot-of-strawberry-1.jpg"
+  },
+  {
+    "name": "Grape Blister Mite",
+    "scietific_name": "Colomerus vitis",
+    "fungus": "Mite",
+    "image": "assets/pests/images/grape-blister-mite-1.jpg"
+  },
+  {
+    "name": "Red Stripe Disease",
+    "scietific_name": "Gonatophragmium sp.",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/red-stripe-disease-1.jpg"
+  },
+  {
+    "name": "Dry Root Rot of Bean",
+    "scietific_name": "Fusarium solani f. sp. phaseoli",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/dry-root-rot-of-bean-bean-1574853276.jpg"
+  },
+  {
+    "name": "Brown Stink Bug",
+    "scietific_name": "Euschistus servus",
+    "fungus": "Insect",
+    "image": "assets/pests/images/brown-stink-bug-1.jpg"
+  },
+  {
+    "name": "Citrus Exocortis Viroid",
+    "scietific_name": "CEVd",
+    "fungus": "Virus",
+    "image": "assets/pests/images/citrus-exocortis-viroid-1.jpg"
+  },
+  {
+    "name": "Brown Leaf Spot",
+    "scietific_name": "Mycosphaerella henningsii",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/brown-leaf-spot-1.jpg"
+  },
+  {
+    "name": "Aster Yellows Phytoplasma",
+    "scietific_name": "Phytoplasma asteris",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/aster-yellows-phytoplasma-melon-1575291577.jpg"
+  },
+  {
+    "name": "Rice Leaf Mite",
+    "scietific_name": "Oligonychus oryzae",
+    "fungus": "Mite",
+    "image": "assets/pests/images/rice-leaf-mite-1.jpg"
+  },
+  {
+    "name": "Cassava Bud Necrosis",
+    "scietific_name": "Unknown Pathogen",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/cassava-bud-necrosis-manioc-1.jpg"
+  },
+  {
+    "name": "Blast of Citrus",
+    "scietific_name": "Pseudomonas syringae pv. syringae",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/blast-of-citrus-1.jpg"
+  },
+  {
+    "name": "Leaf Stripe of Barley",
+    "scietific_name": "Pyrenophora graminea",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/leaf-stripe-of-barley-1.jpg"
+  },
+  {
+    "name": "Stem Borer",
+    "scietific_name": "Coniesta ignefusalis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/stem-borer-1.jpg"
+  },
+  {
+    "name": "Golden Apple Snail",
+    "scietific_name": "Pomacea canaliculata",
+    "fungus": "Other",
+    "image": "assets/pests/images/golden-apple-snail-1.jpg"
+  },
+  {
+    "name": "Leek Rust",
+    "scietific_name": "Puccinia porri",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/leek-rust-1.jpg"
+  },
+  {
+    "name": "Stem Rot of Tomato",
+    "scietific_name": "Didymella lycopersici",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/stem-rot-of-tomato-1.jpg"
+  },
+  {
+    "name": "Southern Armyworm",
+    "scietific_name": "Spodoptera eridania",
+    "fungus": "Insect",
+    "image": "assets/pests/images/southern-armyworm-soybean-1556867207.jpg"
+  },
+  {
+    "name": "Melanose",
+    "scietific_name": "Diaporthe citri",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/melanose-1.jpg"
+  },
+  {
+    "name": "Citrus Flatid Plant Hopper",
+    "scietific_name": "Metcalfa pruinosa",
+    "fungus": "Insect",
+    "image": "assets/pests/images/citrus-flatid-plant-hopper-1.jpg"
+  },
+  {
+    "name": "Powdery Mildew of Strawberry",
+    "scietific_name": "Podosphaera aphanis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/powdery-mildew-of-strawberry-strawberry-1550775609.jpg"
+  },
+  {
+    "name": "Dieback of Stone Fruit",
+    "scietific_name": "Valsa cincta",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/dieback-of-stone-fruit-cherry-1.jpg"
+  },
+  {
+    "name": "Angular Leaf Spot",
+    "scietific_name": "Mycosphaerella angulata",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/angular-leaf-spot-1.jpg"
+  },
+  {
+    "name": "Raspberry Spur Blight",
+    "scietific_name": "Didymella applanata",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/raspberry-spur-blight-1.jpg"
+  },
+  {
+    "name": "Soybean Stalk Weevil",
+    "scietific_name": "Sternechus subsignatus",
+    "fungus": "Insect",
+    "image": "assets/pests/images/soybean-stalk-weevil-1.jpg"
+  },
+  {
+    "name": "American Gooseberry Mildew",
+    "scietific_name": "Podosphaera mors-uvae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/american-gooseberry-mildew-currant-1551107585.jpg"
+  },
+  {
+    "name": "Valsa Disease",
+    "scietific_name": "Valsa leucostoma",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/valsa-disease-1.jpg"
+  },
+  {
+    "name": "Septoria Spot",
+    "scietific_name": "Septoria citri",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/septoria-spot-1.jpg"
+  },
+  {
+    "name": "Olive Borer",
+    "scietific_name": "Hylesinus toranio",
+    "fungus": "Insect",
+    "image": "assets/pests/images/olive-borer-1.jpg"
+  },
+  {
+    "name": "Grapevine Leafroller",
+    "scietific_name": "Sparganothis pilleriana",
+    "fungus": "Insect",
+    "image": "assets/pests/images/grapevine-leafroller-1.jpg"
+  },
+  {
+    "name": "Powdery Scab",
+    "scietific_name": "Spongospora subterranea",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/powdery-scab-1.jpg"
+  },
+  {
+    "name": "Root Rot of Olive",
+    "scietific_name": "Rhizoctonia solani",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/rhizoctonia-root-rot-of-olive-1.jpg"
+  },
+  {
+    "name": "Constriction Canker",
+    "scietific_name": "Phomopsis amygdali",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/constriction-canker-1.jpg"
+  },
+  {
+    "name": "Banana Moth",
+    "scietific_name": "Opogona sacchari",
+    "fungus": "Insect",
+    "image": "assets/pests/images/banana-moth-banana-1563276168.jpg"
+  },
+  {
+    "name": "Cucumber Scab",
+    "scietific_name": "Cladosporium cucumerinum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/cucumber-scab-1.jpg"
+  },
+  {
+    "name": "Mal Secco",
+    "scietific_name": "Phoma tracheiphila",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/mal-secco-citrus-1.jpg"
+  },
+  {
+    "name": "Boll Weevil",
+    "scietific_name": "Anthonomus grandis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/boll-weevil-cotton-1558422418.jpg"
+  },
+  {
+    "name": "Pear Leaf Spot",
+    "scietific_name": "Diplocarpon maculatum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/pear-leaf-spot-1550780901.jpg"
+  },
+  {
+    "name": "Rose Mildew",
+    "scietific_name": "Podosphaera pannosa",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/rose-mildew-1.jpg"
+  },
+  {
+    "name": "Plum Rust",
+    "scietific_name": "Tranzschelia pruni spinosae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/plum-rust-1.jpg"
+  },
+  {
+    "name": "Anthracnose of Lime",
+    "scietific_name": "Glomerella acutata",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/anthracnose-of-lime-citrus-1.jpg"
+  },
+  {
+    "name": "Tobacco Budworm",
+    "scietific_name": "Chloridea virescens",
+    "fungus": "Insect",
+    "image": "assets/pests/images/tobacco-budworm-1.jpg"
+  },
+  {
+    "name": "Whorl Maggot",
+    "scietific_name": "Hydrellia philippina",
+    "fungus": "Insect",
+    "image": "assets/pests/images/whorl-maggot-rice-1566472217.jpg"
+  },
+  {
+    "name": "Greasy Spot",
+    "scietific_name": "Mycosphaerella citri",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/greasy-spot-citrus-1569336065.jpg"
+  },
+  {
+    "name": "Physiological Leaf Spot",
+    "scietific_name": "PLS",
+    "fungus": "Other",
+    "image": "assets/pests/images/physiological-leaf-spot-1.jpg"
+  },
+  {
+    "name": "Shothole Disease",
+    "scietific_name": "Wilsonomyces carpophilus",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/shothole-disease-1.jpg"
+  },
+  {
+    "name": "Striga",
+    "scietific_name": "Striga hermonthica",
+    "fungus": "Weed",
+    "image": "assets/pests/images/striga-1.jpg"
+  },
+  {
+    "name": "Moko Disease",
+    "scietific_name": "Ralstonia solanacearum",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/moko-disease-banana-1563272253.jpg"
+  },
+  {
+    "name": "Bacterial Spot on Stone Fruits",
+    "scietific_name": "Xanthomonas arboricola",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-spot-on-stone-fruits-1.jpg"
+  },
+  {
+    "name": "Pocket Plum Gall",
+    "scietific_name": "Taphrina pruni",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/pocket-plum-gall-1550773798.jpg"
+  },
+  {
+    "name": "Cherry Fruit Fly",
+    "scietific_name": "Rhagoletis cerasi",
+    "fungus": "Insect",
+    "image": "assets/pests/images/cherry-fruit-fly-cherry-1.jpg"
+  },
+  {
+    "name": "White Pine Blister Rust",
+    "scietific_name": "Cronartium ribicola",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/white-pine-blister-rust-currant-1.jpg"
+  },
+  {
+    "name": "Poplar Lace bug",
+    "scietific_name": "Monosteira unicostata",
+    "fungus": "Insect",
+    "image": "assets/pests/images/poplar-lace-bug-almond-1.jpg"
+  },
+  {
+    "name": "Common Leaf Spot",
+    "scietific_name": "Mycosphaerella fragariae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/common-leaf-spot-strawberry-1.jpg"
+  },
+  {
+    "name": "Castor Hairy Caterpillar",
+    "scietific_name": "Pericallia ricini",
+    "fungus": "Insect",
+    "image": "assets/pests/images/castor-hairy-caterpillar-banana-1563273967.jpg"
+  },
+  {
+    "name": "Iron Toxicity in Rice",
+    "scietific_name": "Iron Toxicity",
+    "fungus": "Other",
+    "image": "assets/pests/images/iron-toxicity-in-rice-rice-1.jpg"
+  },
+  {
+    "name": "European Pear Rust",
+    "scietific_name": "Gymnosporangium sabinae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/european-pear-rust-pear-1.jpg"
+  },
+  {
+    "name": "Stecklenberger Disease",
+    "scietific_name": "PNRSV Prunus necrotic ringspot virus",
+    "fungus": "Virus",
+    "image": "assets/pests/images/stecklenberger-disease-1.jpg"
+  },
+  {
+    "name": "Bean Leaf Webber",
+    "scietific_name": "Hedylepta indicata",
+    "fungus": "Insect",
+    "image": "assets/pests/images/bean-leaf-webber-maize-1.jpg"
+  },
+  {
+    "name": "Fertilizer Burn",
+    "scietific_name": "Fertilizer Burn",
+    "fungus": "Other",
+    "image": "assets/pests/images/fertilizer-burn-cotton-1.jpg"
+  },
+  {
+    "name": "Red Palm Mite",
+    "scietific_name": "Raoiella indica",
+    "fungus": "Mite",
+    "image": "assets/pests/images/red-palm-mite-1.jpg"
+  },
+  {
+    "name": "Papaya Leaf Curl Virus",
+    "scietific_name": "PaLCV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/papaya-leaf-curl-virus-papaya-1.jpg"
+  },
+  {
+    "name": "Sugarcane Borer",
+    "scietific_name": "Diatraea saccharalis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/sugarcane-borer-sugarcane-1569829640.jpg"
+  },
+  {
+    "name": "Esca",
+    "scietific_name": "Togninia minima",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/esca-grape-1.jpg"
+  },
+  {
+    "name": "Ramularia Leaf Spot",
+    "scietific_name": "Ramularia collo-cygni",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/ramularia-leaf-spot-1.jpg"
+  },
+  {
+    "name": "Holcus Leaf Spot",
+    "scietific_name": "Pseudomonas syringae pv. syringae",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/holcus-spot-1.jpg"
+  },
+  {
+    "name": "Bacterial Fruit Blotch",
+    "scietific_name": "Acidovorax citrulli",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-fruit-blotch-1.jpg"
+  },
+  {
+    "name": "Greenhorned Caterpillars",
+    "scietific_name": "Melanitis leda",
+    "fungus": "Insect",
+    "image": "assets/pests/images/greenhorned-caterpillars-1.jpg"
+  },
+  {
+    "name": "Cherry Leaf Scorch",
+    "scietific_name": "Apiognomonia erythrostoma",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/cherry-leaf-scorch-1.jpg"
+  },
+  {
+    "name": "Olive Bud Mite",
+    "scietific_name": "Oxycenus maxwelli",
+    "fungus": "Mite",
+    "image": "assets/pests/images/olive-bud-mite-1.jpg"
+  },
+  {
+    "name": "Cassava Scale",
+    "scietific_name": "Aonidomytilus albus",
+    "fungus": "Insect",
+    "image": "assets/pests/images/cassava-scale-manioc-1.jpg"
+  },
+  {
+    "name": "Crown Gall",
+    "scietific_name": "Agrobacterium",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/crown-gall-1.jpg"
+  },
+  {
+    "name": "Black Spot Disease",
+    "scietific_name": "Colletotrichum lindemuthianum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/black-spot-disease-1.jpg"
+  },
+  {
+    "name": "Rhizome Rot of Strawberry",
+    "scietific_name": "Phytophthora cactorum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/crown-rot-1.jpg"
+  },
+  {
+    "name": "Cucumber Beetle",
+    "scietific_name": "Diabrotica spp.",
+    "fungus": "Insect",
+    "image": "assets/pests/images/cucumber-beetle-soybean-1.jpg"
+  },
+  {
+    "name": "Anthracnose of Currant and Gooseberry",
+    "scietific_name": "Drepanopeziza ribis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/anthracnose-of-currant-and-gooseberry-1.jpg"
+  },
+  {
+    "name": "Phytophthora Crown and Root Rot",
+    "scietific_name": "Phytophthora spp.",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/phytophthora-crown-and-root-rot-1.jpg"
+  },
+  {
+    "name": "Cabbage Moth",
+    "scietific_name": "Mamestra brassicae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/cabbage-moth-2.jpg"
+  },
+  {
+    "name": "Pistachio Seed Wasp",
+    "scietific_name": "Eurytoma plotnikovi",
+    "fungus": "Insect",
+    "image": "assets/pests/images/pistachio-seed-wasp-1.jpg"
+  },
+  {
+    "name": "Almond Red Leaf Blotch",
+    "scietific_name": "Polystigma ochraceum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/almond-red-leaf-blotch-almond-1.jpg"
+  },
+  {
+    "name": "Lettuce Big-Vein Disease",
+    "scietific_name": "Olpidium brassicae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/lettuce-big-vein-disease-lettuce-1.jpg"
+  },
+  {
+    "name": "Olive Leaf Spot",
+    "scietific_name": "Fusicladium oleagineum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/olive-leaf-spot-1.jpg"
+  },
+  {
+    "name": "Spotted Maize Beetle",
+    "scietific_name": "Astylus atromaculatus",
+    "fungus": "Insect",
+    "image": "assets/pests/images/spotted-maize-beetle-1.jpg"
+  },
+  {
+    "name": "Blossom Blight",
+    "scietific_name": "Monilinia fructicola",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/blossom-blight-1.jpg"
+  },
+  {
+    "name": "Mango Seed Borer",
+    "scietific_name": "Deanolis albizonalis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/mango-seed-borer-mango-1.jpg"
+  },
+  {
+    "name": "Banana Fruit-Scarring Beetle",
+    "scietific_name": "Colaspis hypochlora",
+    "fungus": "Insect",
+    "image": "assets/pests/images/banana-fruit-scarring-beetle-banana-1573052781.jpg"
+  },
+  {
+    "name": "Cercospora Leaf Spot of Olive",
+    "scietific_name": "Pseudocercospora cladosporioides",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/cercospora-leaf-spot-of-olive-olive-1.jpg"
+  },
+  {
+    "name": "Twig Canker of Peach",
+    "scietific_name": "Phomopsis amygdali",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/twig-canker-of-peach-1.jpg"
+  },
+  {
+    "name": "Bright Line Brown Eye",
+    "scietific_name": "Lacanobia oleracea",
+    "fungus": "Insect",
+    "image": "assets/pests/images/bright-line-brown-eye-tomato-1552660909.jpg"
+  },
+  {
+    "name": "Penicillium ear rot",
+    "scietific_name": "Penicillium spp.",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/penicillium-ear-rot-1.jpg"
+  },
+  {
+    "name": "Green Paddy Leafhoppers",
+    "scietific_name": "Nephotettix spp.",
+    "fungus": "Insect",
+    "image": "assets/pests/images/green-paddy-leafhoppers-1.jpg"
+  },
+  {
+    "name": "Bottom Rot",
+    "scietific_name": "Thanatephorus cucumeris",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/bottom-rot-lettuce-1.jpg"
+  },
+  {
+    "name": "Leaf Spot of Citrus",
+    "scietific_name": "Pseudocercospora angolensis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/leaf-spot-of-citrus-citrus-1.jpg"
+  },
+  {
+    "name": "Anthracnose of Cotton",
+    "scietific_name": "Glomerella gossypii",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/anthracnose-of-cotton-1.jpg"
+  },
+  {
+    "name": "Leaf Curl in Tomato",
+    "scietific_name": "Physiological Disorder",
+    "fungus": "Other",
+    "image": "assets/pests/images/leaf-curl-in-tomato-tomato-1556276478.jpg"
+  },
+  {
+    "name": "Yellow Vine Mite",
+    "scietific_name": "Eotetranychus carpini",
+    "fungus": "Mite",
+    "image": "assets/pests/images/yellow-vine-mite-grape-1.jpg"
+  },
+  {
+    "name": "Cassava Green Spider Mite",
+    "scietific_name": "Mononychellus tanajoa",
+    "fungus": "Mite",
+    "image": "assets/pests/images/cassava-green-spider-mite-1.jpg"
+  },
+  {
+    "name": "Tropical Rust",
+    "scietific_name": "Physopella zeae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/tropical-rust-maize-1.jpg"
+  },
+  {
+    "name": "Bacterial Spot of Citrus",
+    "scietific_name": "Xanthomonas alfalfae subsp. citrumelonis",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/bacterial-spot-of-citrus-citrus-2.jpg"
+  },
+  {
+    "name": "Cassava Phytoplasma Disease",
+    "scietific_name": "Phytoplasma spp.",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/cassava-phytoplasma-disease-manioc-1.jpg"
+  },
+  {
+    "name": "Rough Leaf Spot Of Sorghum",
+    "scietific_name": "Ascochyta sorghi",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/rough-leaf-spot-of-sorghum-1.jpg"
+  },
+  {
+    "name": "Lesser Stalk Borer of Maize",
+    "scietific_name": "Elasmopalpus lignosellus",
+    "fungus": "Insect",
+    "image": "assets/pests/images/lesser-stalk-borer-of-maize-1.jpg"
+  },
+  {
+    "name": "Stunt of Maize",
+    "scietific_name": "Spiroplasma kunkelii",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/stunt-of-maize-1.jpg"
+  },
+  {
+    "name": "Grape Rust Mite",
+    "scietific_name": "Calepitrimerus vitis",
+    "fungus": "Mite",
+    "image": "assets/pests/images/grape-rust-mite-grape-1550777778.jpg"
+  },
+  {
+    "name": "Zonate Leaf Spot",
+    "scietific_name": "Gloeocercospora sorghi",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/zonate-leaf-spot-1.jpg"
+  },
+  {
+    "name": "Millet Cercospora Leaf Spot",
+    "scietific_name": "Cercospora penniseti",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/millet-cercospora-leaf-spot-millet-1.jpg"
+  },
+  {
+    "name": "Olive Psyllid",
+    "scietific_name": "Euphyllura olivina",
+    "fungus": "Insect",
+    "image": "assets/pests/images/olive-psyllid-1.jpg"
+  },
+  {
+    "name": "Leaf and Glume Blotch of Wheat",
+    "scietific_name": "Parastagonospora nodorum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/leaf-and-glume-blotch-of-wheat-wheat-1551112985.jpg"
+  },
+  {
+    "name": "Rhynchosporium",
+    "scietific_name": "Rhynchosporium secalis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/rhynchosporium-1.jpg"
+  },
+  {
+    "name": "Net Blotch",
+    "scietific_name": "Pyrenophora teres",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/net-blotch-1.jpg"
+  },
+  {
+    "name": "Millet Rust",
+    "scietific_name": "Puccinia substriata",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/millet-rust-1.jpg"
+  },
+  {
+    "name": "Mango Fruit Borer",
+    "scietific_name": "Citripestis eutraphera",
+    "fungus": "Insect",
+    "image": "assets/pests/images/mango-fruit-borer-mango-1550577170.jpg"
+  },
+  {
+    "name": "Watermelon Mosaic Virus",
+    "scietific_name": "WMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/watermelon-mosaic-virus-1.jpg"
+  },
+  {
+    "name": "Demerara Froghopper",
+    "scietific_name": "Deois flavopicta ",
+    "fungus": "Insect",
+    "image": "assets/pests/images/demerara-froghopper-rice-1.jpg"
+  },
+  {
+    "name": "Cercospora Leaf Spot of Beet",
+    "scietific_name": "Cercospora beticola",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/cercospora-leaf-spot-of-beet-1.jpg"
+  },
+  {
+    "name": "Phoma Sorghina in Rice",
+    "scietific_name": "Epicoccum sorghi",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/phoma-sorghina-in-rice-1.jpg"
+  },
+  {
+    "name": "Banana Rust Thrips",
+    "scietific_name": "Chaetanaphothrips signipennis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/banana-rust-thrips-banana-1563272461.jpg"
+  },
+  {
+    "name": "Black Leaf Spot of Banana",
+    "scietific_name": "Deightoniella torulosa",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/black-leaf-spot-of-banana-banana-1.jpg"
+  },
+  {
+    "name": "Gibberella Stalk Rot of Maize",
+    "scietific_name": "Gibberella zeae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/gibberella-stalk-rot-of-maize-1.jpg"
+  },
+  {
+    "name": "Long Smut of Sorghum",
+    "scietific_name": "Tolyposporium ehrenbergii",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/long-smut-of-sorghum-1.jpeg"
+  },
+  {
+    "name": "Paddy Swarming Caterpillar",
+    "scietific_name": "Spodoptera mauritia",
+    "fungus": "Insect",
+    "image": "assets/pests/images/paddy-swarming-caterpillar-1.jpg"
+  },
+  {
+    "name": "Ramularia Leaf Spot of Beet",
+    "scietific_name": "Ramularia beticola",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/ramularia-leaf-spot-of-beet-1.jpg"
+  },
+  {
+    "name": "Black Shank",
+    "scietific_name": "Phytophthora nicotianae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/black-shank-1.jpg"
+  },
+  {
+    "name": "Dry Root Rot of Chickpea",
+    "scietific_name": "Macrophomina phaseolina",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/dry-root-rot-of-chickpea-chickpea-1574855208.jpg"
+  },
+  {
+    "name": "Soreshin",
+    "scietific_name": "Rhizoctonia solani",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/soreshin-cotton-1.jpg"
+  },
+  {
+    "name": "Pear Scab",
+    "scietific_name": "Venturia pyrina",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/pear-scab-1.jpg"
+  },
+  {
+    "name": "Anthracnose of Lentil",
+    "scietific_name": "Colletotrichum truncatum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/stem-anthracnose-of-soybean-lentil-1.jpg"
+  },
+  {
+    "name": "Ascochyta Blight of Lentil",
+    "scietific_name": "Didymella fabae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/ascochyta-blight-of-lentil--1.jpg"
+  },
+  {
+    "name": "Lentil Rust",
+    "scietific_name": "Uromyces viciae-fabae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/lentil-rust-1.jpg"
+  },
+  {
+    "name": "Botrytis Blight in Lettuce",
+    "scietific_name": "Botrytis cinerea",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/botrytis-blight-in-lettuce-1.jpg"
+  },
+  {
+    "name": "White Leaf Spot of Cassava",
+    "scietific_name": "Phaeoramularia manihotis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/white-leaf-spot-of-cassava-manioc-1.jpg"
+  },
+  {
+    "name": "Clubroot of Canola",
+    "scietific_name": "Plasmodiophora brassicae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/clubroot-of-canola-1.jpg"
+  },
+  {
+    "name": "Alkalinity",
+    "scietific_name": "Alkalinity",
+    "fungus": "Other",
+    "image": "assets/pests/images/alkalinity-1.jpg"
+  },
+  {
+    "name": "Maize Chlorotic Mottle Virus",
+    "scietific_name": "MCMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/maize-chlorotic-mottle-virus-maize-1551116353.jpg"
+  },
+  {
+    "name": "Black Parlatoria Scale",
+    "scietific_name": "Parlatoria ziziphi",
+    "fungus": "Insect",
+    "image": "assets/pests/images/black-parlatoria-scale-1.jpg"
+  },
+  {
+    "name": "Mealy Plum Aphid",
+    "scietific_name": "Hyalopterus pruni",
+    "fungus": "Insect",
+    "image": "assets/pests/images/mealy-plum-aphid-1.jpg"
+  },
+  {
+    "name": "Brown Spot of Maize",
+    "scietific_name": "Physoderma maydis",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/brown-spot-of-maize-maize-1.jpg"
+  },
+  {
+    "name": "Rice Skipper",
+    "scietific_name": "Pelopidas mathias",
+    "fungus": "Insect",
+    "image": "assets/pests/images/rice-skipper--1.jpg"
+  },
+  {
+    "name": "Chocolate Spot of Broad Bean",
+    "scietific_name": "Botrytis fabae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/chocolate-spot-of-broad-bean-1.jpg"
+  },
+  {
+    "name": "Citrus Bud Mite",
+    "scietific_name": "Aceria sheldoni",
+    "fungus": "Mite",
+    "image": "assets/pests/images/citrus-bud-mite-citrus-1.jpg"
+  },
+  {
+    "name": "Pistachio Seed Chalcid",
+    "scietific_name": "Megastigmus pistaciae",
+    "fungus": "Insect",
+    "image": "assets/pests/images/pistachio-seed-chalcid-1.jpg"
+  },
+  {
+    "name": "Vine Flea Beetle",
+    "scietific_name": "Altica ampelophaga",
+    "fungus": "Insect",
+    "image": "assets/pests/images/vine-flea-beetle-1.jpg"
+  },
+  {
+    "name": "Brown Mite",
+    "scietific_name": "Bryobia rubrioculus",
+    "fungus": "Mite",
+    "image": "assets/pests/images/brown-mite-1.jpg"
+  },
+  {
+    "name": "Freckle of Banana",
+    "scietific_name": "Phyllosticta maculata",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/freckle-of-banana-banana-1563886828.jpg"
+  },
+  {
+    "name": "Cercospora Leaf Spot of Cotton",
+    "scietific_name": "Mycosphaerella gossypina",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/cercospora-leaf-spot-of-cotton-cotton-2.jpg"
+  },
+  {
+    "name": "Citrus Rust Mite",
+    "scietific_name": "Phyllocoptruta oleivora",
+    "fungus": "Mite",
+    "image": "assets/pests/images/citrus-rust-mite-citrus-1562157907.jpg"
+  },
+  {
+    "name": "Leaf Mold of Tomato",
+    "scietific_name": "Mycovellosiella fulva",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/leaf-mold-of-tomato-1.jpg"
+  },
+  {
+    "name": "Redcurrant Blister Aphid",
+    "scietific_name": "Cryptomyzus ribis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/redcurrant-blister-aphid-1.jpg"
+  },
+  {
+    "name": "Rice Yellow Mottle Virus",
+    "scietific_name": "RYMV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/rice-yellow-mottle-virus-1.jpg"
+  },
+  {
+    "name": "Leaf Spot of Pistachio",
+    "scietific_name": "Mycosphaerella pistacina",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/leaf-spot-of-pistachio-1.jpg"
+  },
+  {
+    "name": "Citrus Psorosis Virus",
+    "scietific_name": "CPsV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/citrus-psorosis-virus-citrus-1.jpg"
+  },
+  {
+    "name": "Alternaria Late Blight",
+    "scietific_name": "Alternaria alternata",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/alternaria-late-blight-1.jpg"
+  },
+  {
+    "name": "Cotton Leaf Perforator",
+    "scietific_name": "Bucculatrix thurberiella",
+    "fungus": "Insect",
+    "image": "assets/pests/images/cotton-leaf-perforator-1.jpg"
+  },
+  {
+    "name": "Pesticide Burn",
+    "scietific_name": "Pesticide Burn",
+    "fungus": "Other",
+    "image": "assets/pests/images/pesticide-burn-soybean-1552662871.jpg"
+  },
+  {
+    "name": "Maize Leaf Streak Virus",
+    "scietific_name": "MSV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/maize-leaf-streak-virus-maize-1.jpg"
+  },
+  {
+    "name": "Cassava Brown Streak Disease",
+    "scietific_name": "CBSV",
+    "fungus": "Virus",
+    "image": "assets/pests/images/cassava-brown-streak-disease-manioc-1.jpg"
+  },
+  {
+    "name": "Whitebacked Planthopper",
+    "scietific_name": "Sogatella furcifera",
+    "fungus": "Insect",
+    "image": "assets/pests/images/whitebacked-planthopper-rice-1551210583.jpg"
+  },
+  {
+    "name": "Asiatic Rice Borer",
+    "scietific_name": "Chilo suppressalis",
+    "fungus": "Insect",
+    "image": "assets/pests/images/asiatic-rice-borer-rice-1.jpg"
+  },
+  {
+    "name": "Stemphylium Blight of Lentil",
+    "scietific_name": "Pleospora herbarum",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/stemphylium-blight-of-lentil--lentil-1.jpg"
+  },
+  {
+    "name": "Wet Weather Blight of Cotton",
+    "scietific_name": "Ascochyta gossypii",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/wet-weather-blight-of-cotton-cotton-1.jpg"
+  },
+  {
+    "name": "Downy Mildew of Soybean",
+    "scietific_name": "Peronospora manshurica",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/downy-mildew-of-soybean-soybean-1556283057.jpg"
+  },
+  {
+    "name": "Kernel Smut of Rice",
+    "scietific_name": "Tilletia barclayana",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/kernel-smut-of-rice-rice-1555590265.jpg"
+  },
+  {
+    "name": "Leaf Blotch of Banana",
+    "scietific_name": "Cordana musae",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/leaf-blotch-of-banana-banana-1563887348.jpg"
+  },
+  {
+    "name": "Phony Peach Disease",
+    "scietific_name": "Xylella fastidiosa",
+    "fungus": "Bacteria",
+    "image": "assets/pests/images/phony-peach-disease-1.jpg"
+  },
+  {
+    "name": "Biomphalaria Snail",
+    "scietific_name": "Biomphalaria spp.",
+    "fungus": "Other",
+    "image": "assets/pests/images/biomphalaria-snail-1.jpg"
+  },
+  {
+    "name": "Brown Stem Rot of Soybean",
+    "scietific_name": "Cadophora gregata",
+    "fungus": "Fungus",
+    "image": "assets/pests/images/brown-stem-rot-of-soybean-soybean-1576075335.jpg"
+  }
+]

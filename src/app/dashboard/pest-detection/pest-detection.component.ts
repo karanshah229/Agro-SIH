@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { HttpClient, HttpEventType } from '@angular/common/http';
+import { BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-pest-detection',
@@ -6,10 +9,39 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pest-detection.component.scss']
 })
 export class PestDetectionComponent implements OnInit {
+  selectedFile:File = null
+  pest:any = ""
+  loading:BehaviorSubject<number> = new BehaviorSubject(0);
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
+  }
+
+  onFileSelected(e){
+    this.selectedFile = <File>e.target.files[0]
+  }
+
+  onUpload(){
+    const fd = new FormData();
+    fd.append('image', this.selectedFile.name)
+    this.http.post("localhost:8000", fd,
+      {
+        reportProgress: true,
+        observe: 'events'
+      })
+      .subscribe(
+          event => {
+            if(event.type === HttpEventType.UploadProgress){
+              let progress = Math.round( (event.loaded / event.total) * 100)
+              if(progress === 100 || progress > 99)
+              this.loading.next(progress)
+            } else if(event.type === HttpEventType.Response){
+              res => { this.pest  = res }
+            }
+          },
+          error => { this.pest = error }
+        )
   }
 
 }

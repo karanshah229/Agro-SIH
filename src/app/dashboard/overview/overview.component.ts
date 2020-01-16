@@ -47,19 +47,6 @@ export class OverviewComponent implements OnInit {
     );
   }
 
-  getForecastWeather(){
-    this.dashboardService.get_forecast_weather(this.user_polygon.id).subscribe(
-      (data) => {
-        this.forecast_weather = data;
-        console.log(this.forecast_weather)
-      },
-      (error) => {
-        this.forecast_weather = error;
-        console.log(this.forecast_weather)
-      }
-    );
-  }
-
   getCurrentSoilData(){
     this.dashboardService.get_current_soil_data(this.user_polygon.id).subscribe(
       (data) => {

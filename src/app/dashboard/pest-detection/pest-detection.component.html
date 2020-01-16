@@ -1,1 +1,24 @@
-<p>pest-detection works!</p>
+<div fxLayout fxLayoutAlign="start" style="margin: 1rem" fxLayoutGap="20px">
+  <div fxFlex="40">
+    <h3>If you think your farm is infested with pests, you can now check by simply uploading a photo</h3><br>
+    <div>
+      <div style="font-size: 1.2rem; margin-bottom: 1rem;">Steps: </div>
+      <div>1. Upload a close up photo of the plant you suspect having a pest infection or disease</div>
+      <div>2. The program will them detect if the plant is infected or not</div>
+      <div>3. In addition, you will get remedies for the same disease</div>
+    </div>
+    <form *ngIf="!pest" style="margin: 2.5rem 1rem">
+      <div *ngIf="!loading.getValue()">
+        <input type="file" (change)="onFileSelected($event)" multiple="false">
+        <button mat-raised-button type="button" (click)="onUpload()" color="accent" [disabled] = "!selectedFile">Upload</button>
+      </div>
+      <div *ngIf="loading"><mat-spinner color="accent" mode="determinate" [value] = "loading"></mat-spinner></div>
+    </form>
+    <div style="margin: 2rem; padding: 2rem; font-size: 1.2rem" *ngIf="pest"> Your plant is infected with <i style="font-weight: bold;">{{ pest }}</i> </div>
+  </div>
+
+  <div fxFlex="55" style="border-left: 1px solid black; padding: 0 2rem;">
+    <h3>Pests</h3>
+  </div>
+
+</div>

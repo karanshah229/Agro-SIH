@@ -1,9 +1,9 @@
-<div fxLayoutAlign="space-between" fxLayoutGap="10px" fxLayout.lt-md="column" fxLayoutAlign.lt-md="start">
+<div fxLayoutAlign="space-around" fxLayoutGap="10px" fxLayout.lt-md="column" fxLayoutAlign.lt-md="start">
 
   <mat-card fxFlex="25" fxFlex.lt-md="100">
     <mat-card-title style="font-size: 1.1rem; text-align: center;">Current Weather</mat-card-title><hr><br><br>
     <mat-card-content *ngIf="current_weather && current_uvi">
-      <h2 style="text-align: center;">{{ current_weather.weather[0].main }}</h2>
+      <h2 style="text-align: center;">{{ current_weather.weather[0].description }}</h2>
       <h3 style="text-align: center;">
         {{ (current_weather.main.temp - 273.15).toFixed(2) }} <sup>o</sup>C
       </h3><hr>
