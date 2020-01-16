@@ -11,16 +11,18 @@ import { PestDetectionComponent } from './dashboard/pest-detection/pest-detectio
 import { ForumComponent } from './dashboard/forum/forum.component';
 import { SowingComponent } from './dashboard/sowing/sowing.component';
 import { OverviewComponent } from './dashboard/overview/overview.component';
+import { ClimateComponent } from './dashboard/climate/climate.component';
 
 const routes: Routes = [
   { path: '', component: IndexComponent, pathMatch: 'full', canActivate: [LoginGuard] },
   { path: 'signIn', redirectTo: '', pathMatch: 'full' },
-  { path: 'dashboard', component: DashboardComponent /*, canActivate: [AuthGuard] */,
+  { path: 'dashboard', component: DashboardComponent , /*canActivate: [AuthGuard],*/
     children: [
       { path: '', redirectTo: 'overview', pathMatch: 'full' },
       { path: 'overview', component: OverviewComponent },
       { path: 'pest-detection', component: PestDetectionComponent },
       { path: 'sowing', component: SowingComponent },
+      { path: 'climate', component: ClimateComponent },
       { path: 'forum', component: ForumComponent },
     ]
   },

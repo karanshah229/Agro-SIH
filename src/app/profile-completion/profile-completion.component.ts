@@ -19,7 +19,7 @@ export class ProfileCompletionComponent implements OnInit {
 
   lat: number;
   lng: number;
-  soilTypes: string[] = ["Clay Soil", "Sandy Soil", "Silty Soil", "Peaty Soil", "Chalky Soil", "Loamy Soil"];
+  soilTypes: string[] = ["Clayey", "Sandy", "Silty", "Peaty", "Chalky", "Loamy", "Silts", "Gravel", "Friable", "Red Grey Yellow Loams", "Black Clay", "Alluvial", "Laterite", "Alkaline", "Saline"];
   polygonAreaInKms:number;
   polygonPoints:any;
   @ViewChild("search", {static: false}) public searchElementRef: ElementRef;
@@ -142,6 +142,7 @@ export class ProfileCompletionComponent implements OnInit {
     //Send data to FireBase
     this.firebase.addData(this.profileCompletion.value, 'profileCompletion');
     this.land_area = this.profileCompletion.value['land_area'];
+
     //Calculate Polygon Points and Area
     switch(this.profileCompletion.value['land_area_unit']){
       case "metre": this.polygonAreaInKms = (this.land_area / 10^6); break;
@@ -150,11 +151,11 @@ export class ProfileCompletionComponent implements OnInit {
     }
     let polygonAreaInDegrees = this.polygonAreaInKms / 111;
     this.polygonPoints = [[
-      [this.lng + polygonAreaInDegrees, this.lat - polygonAreaInDegrees],
-      [this.lng + polygonAreaInDegrees, this.lat + polygonAreaInDegrees],
-      [this.lng - polygonAreaInDegrees, this.lat + polygonAreaInDegrees],
       [this.lng - polygonAreaInDegrees, this.lat - polygonAreaInDegrees],
-      [this.lng + polygonAreaInDegrees, this.lat - polygonAreaInDegrees]
+      [this.lng - polygonAreaInDegrees, this.lat + polygonAreaInDegrees],
+      [this.lng + polygonAreaInDegrees, this.lat + polygonAreaInDegrees],
+      [this.lng + polygonAreaInDegrees, this.lat - polygonAreaInDegrees],
+      [this.lng - polygonAreaInDegrees, this.lat - polygonAreaInDegrees]
     ]];
 
     //Construct Request

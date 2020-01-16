@@ -1,0 +1,20 @@
+// Current Weather
+http://api.agromonitoring.com/agro/1.0/weather?polyid={POLY_ID}&appid=613d1afb9e5bdef76ca5b04626254376
+
+// Forecast Weather
+http://api.agromonitoring.com/agro/1.0/weather/forecast?polyid={POLY_ID}&appid=613d1afb9e5bdef76ca5b04626254376
+
+// Current Soil
+http://api.agromonitoring.com/agro/1.0/soil?polyid={POLY_ID}&appid=613d1afb9e5bdef76ca5b04626254376
+
+// Current UVI
+http://api.agromonitoring.com/agro/1.0/uvi?polyid={POLY_ID}&appid=613d1afb9e5bdef76ca5b04626254376
+
+// Historical NDVI - For certain places
+https://api.agromonitoring.com/agro/1.0/ndvi/history?polyid={POLY_ID}&start={UNIX_START_TIME}&end={UNIX_END_TIME}&appid=613d1afb9e5bdef76ca5b04626254376
+
+----------------------------------------------
+Sunrise:
+Sunset:
+-----------------------------------------------
+

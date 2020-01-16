@@ -10,5 +10,7 @@ export const environment = {
     appId: "1:50629913832:web:d3e813e9d2004256d06d5d",
     measurementId: "G-F8GNXTW7VP"
   },
-  googleMapsKey: 'AIzaSyDcSHdh2RV16r9uerCTOMqOw2T2KKnYCrc'
+  googleMapsKey: 'AIzaSyDcSHdh2RV16r9uerCTOMqOw2T2KKnYCrc',
+  appid: '613d1afb9e5bdef76ca5b04626254376',
+  bingNewsAPIKey: ''
 };

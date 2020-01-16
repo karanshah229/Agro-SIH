@@ -16,7 +16,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProfileCompletionComponent } from './profile-completion/profile-completion.component';
 
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatInputModule, MatMenuModule } from '@angular/material';
+import { MatInputModule, MatMenuModule, MatCardMdImage, MatCardModule, MatProgressSpinnerModule } from '@angular/material';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatSelectModule } from '@angular/material/select';
@@ -32,6 +32,7 @@ import { SowingComponent } from './dashboard/sowing/sowing.component';
 import { ForumComponent } from './dashboard/forum/forum.component';
 import { HttpClientModule } from '@angular/common/http';
 import { OverviewComponent } from './dashboard/overview/overview.component';
+import { ClimateComponent } from './dashboard/climate/climate.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { OverviewComponent } from './dashboard/overview/overview.component';
     PestDetectionComponent,
     SowingComponent,
     ForumComponent,
-    OverviewComponent
+    OverviewComponent,
+    ClimateComponent
   ],
   imports: [
     BrowserModule,
@@ -70,7 +72,9 @@ import { OverviewComponent } from './dashboard/overview/overview.component';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatMenuModule
+    MatMenuModule,
+    MatCardModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

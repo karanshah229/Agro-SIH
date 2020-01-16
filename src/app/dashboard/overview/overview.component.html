@@ -1,1 +1,104 @@
-<div style="box-shadow: 0px 0px 0px 20px 10px #000; padding: 2rem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo praesentium dolor debitis distinctio at repudiandae, aperiam quia corporis, qui a ab odit maiores quisquam excepturi veniam. Iusto modi harum ad aperiam dolores dolor nihil esse, corporis reprehenderit perferendis officiis sunt assumenda repellat facilis est culpa error id sint commodi ducimus porro soluta? Nobis, impedit expedita! Natus, cupiditate aliquam libero, sequi rem modi exercitationem odio, aut voluptatibus dolore accusantium sint id? Recusandae libero impedit quae. Quas eos neque quo voluptatem quod quam odit ea doloremque iusto vitae ipsa totam itaque esse dolores nemo fugit, veritatis ut iure atque culpa perspiciatis. Earum?</div>
+<div fxLayoutAlign="space-between" fxLayoutGap="10px" fxLayout.lt-md="column" fxLayoutAlign.lt-md="start">
+
+  <mat-card fxFlex="25" fxFlex.lt-md="100">
+    <mat-card-title style="font-size: 1.1rem; text-align: center;">Current Weather</mat-card-title><hr><br><br>
+    <mat-card-content *ngIf="current_weather && current_uvi">
+      <h2 style="text-align: center;">{{ current_weather.weather[0].main }}</h2>
+      <h3 style="text-align: center;">
+        {{ (current_weather.main.temp - 273.15).toFixed(2) }} <sup>o</sup>C
+      </h3><hr>
+      <mat-list>
+        <mat-list-item>
+          <span>Wind </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ current_weather.wind.speed.toFixed(2) }} m/s</span>
+        </mat-list-item>
+        <mat-list-item>
+          <span>Pressure </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ current_weather.main.pressure.toFixed(2) }} hPa</span>
+        </mat-list-item>
+        <mat-list-item>
+          <span>Humidity </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ current_weather.main.humidity.toFixed(2) }}</span>
+        </mat-list-item>
+        <mat-list-item>
+          <span>Humidity </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ current_weather.main.humidity.toFixed(2) }}</span>
+        </mat-list-item>
+        <mat-list-item>
+          <span>UVI </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ current_uvi.uvi }}</span>
+        </mat-list-item>
+        <mat-list-item>
+          <span>Clouds </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ current_weather.clouds.all.toFixed(2) }} %</span>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+    <mat-card-content *ngIf="!(current_weather && current_uvi)" fxLayoutAlign="center">
+      <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card fxFlex="25" fxFlex.lt-md="100">
+    <mat-card-title style="font-size: 1.1rem; text-align: center;">Current Soil Data</mat-card-title><hr><br>
+    <mat-card-content *ngIf="current_soil">
+      <mat-list>
+        <mat-list-item>
+          <span>T10 </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ (current_soil.t10 - 273.15).toFixed(2) }}</span>
+        </mat-list-item>
+        <mat-list-item>
+          <span>T0 </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ (current_soil.t0 - 273.15).toFixed(2) }}</span>
+        </mat-list-item>
+        <mat-list-item>
+          <span>Moisture </span>
+          <span style="flex: 1 1 auto"></span>
+          <span>{{ current_soil.moisture }}</span>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+    <mat-card-content *ngIf="!current_soil" fxLayoutAlign="center">
+      <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card fxFlex="25" fxFlex.lt-md="100">
+    <mat-card-title style="font-size: 1.1rem; text-align: center;">News</mat-card-title><hr><br>
+    <mat-card-content>
+      #News
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card fxFlex="25" fxFlex.lt-md="100">
+    <mat-card-title style="font-size: 1.1rem; text-align: center;">Quick Links</mat-card-title><hr><br>
+    <mat-card-content>
+      <mat-list>
+        <div>
+          <h3>Can't decide which crop to grow ?</h3>
+          <span style="margin-right: 10px">Find the best crop suited for your location and climate</span>
+          <a [routerLink]="['/dashboard/sowing']">Click Here</a>
+        </div>
+        <div>
+          <h3>Pests attacking your crops ?</h3>
+          <span style="margin-right: 10px">Need help detecting and eliminating pests</span>
+          <a [routerLink]="['/dashboard/pest-detection']">Click Here</a>
+        </div>
+        <div>
+          <h3>Have questions or want to help others ?</h3>
+          <span style="margin-right: 10px">Ask a question about farming or answer someone else's on our forums</span>
+          <a [routerLink]="['/dashboard/forum']">Click Here</a>
+        </div>
+      </mat-list>
+    </mat-card-content>
+  </mat-card>
+
+</div>

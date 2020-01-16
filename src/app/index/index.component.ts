@@ -7,6 +7,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { Observable, of, Subject, BehaviorSubject } from 'rxjs';
+import { AngularFireAuth } from '@angular/fire/auth';
 
 @Component({
   selector: 'app-index',
@@ -54,7 +55,8 @@ export class IndexComponent implements OnInit {
     private fb: FormBuilder,
     private router: Router,
     private afs: AngularFirestore,
-    private changeDetectorRef: ChangeDetectorRef) { }
+    private changeDetectorRef: ChangeDetectorRef,
+    private afa: AngularFireAuth) { }
 
   ngOnInit() {
     this.windowRef = this.win.windowRef;
@@ -66,6 +68,9 @@ export class IndexComponent implements OnInit {
     });
     this.windowRef.recaptchaVerifier.render();
     this.create_signInForm();
+    this.windowRef.addEventListener("beforeunload", (e) => {
+      this.afa.auth.signOut();
+    });
   }
 
   sendLoginCode(){
