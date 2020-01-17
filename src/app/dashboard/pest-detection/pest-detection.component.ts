@@ -23,9 +23,9 @@ export class PestDetectionComponent implements OnInit {
   }
 
   onUpload(){
-    const fd = new FormData();
-    fd.append('image', this.selectedFile.name)
-    this.http.post("localhost:8000", fd,
+    let fd = new FormData();
+    fd.append('plant-image', this.selectedFile.name)
+    this.http.post("127.0.0.1:8000/predict", fd,
       {
         reportProgress: true,
         observe: 'events'
