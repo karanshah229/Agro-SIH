@@ -13,8 +13,9 @@ http://api.agromonitoring.com/agro/1.0/uvi?polyid={POLY_ID}&appid=613d1afb9e5bde
 // Historical NDVI - For certain places
 https://api.agromonitoring.com/agro/1.0/ndvi/history?polyid={POLY_ID}&start={UNIX_START_TIME}&end={UNIX_END_TIME}&appid=613d1afb9e5bdef76ca5b04626254376
 
-----------------------------------------------
-Sunrise:
-Sunset:
------------------------------------------------
+
+Interpret data
+Translate
+Forum - Expert also ?
+Sowing - editable fields and more crops rated on likelyhood
 

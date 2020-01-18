@@ -16,7 +16,7 @@ import { ClimateComponent } from './dashboard/climate/climate.component';
 const routes: Routes = [
   { path: '', component: IndexComponent, pathMatch: 'full', canActivate: [LoginGuard] },
   { path: 'signIn', redirectTo: '', pathMatch: 'full' },
-  { path: 'dashboard', component: DashboardComponent, canActivate: [AuthGuard],
+  { path: 'dashboard', component: DashboardComponent, /*canActivate: [AuthGuard],*/
     children: [
       { path: '', redirectTo: 'overview', pathMatch: 'full' },
       { path: 'overview', component: OverviewComponent },

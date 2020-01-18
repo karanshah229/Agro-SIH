@@ -1,24 +1,67 @@
-<div fxLayout fxLayoutAlign="start" style="margin: 1rem" fxLayoutGap="20px">
-  <div fxFlex="40">
-    <h3>If you think your farm is infested with pests, you can now check by simply uploading a photo</h3><br>
-    <div>
-      <div style="font-size: 1.2rem; margin-bottom: 1rem;">Steps: </div>
-      <div>1. Upload a close up photo of the plant you suspect having a pest infection or disease</div>
-      <div>2. The program will them detect if the plant is infected or not</div>
-      <div>3. In addition, you will get remedies for the same disease</div>
-    </div>
-    <form *ngIf="!pest" style="margin: 2.5rem 1rem">
-      <div *ngIf="!loading.getValue()">
-        <input type="file" (change)="onFileSelected($event)" multiple="false">
-        <button mat-raised-button type="button" (click)="onUpload()" color="accent" [disabled] = "!selectedFile">Upload</button>
+<div fxLayout fxLayoutAlign="start stretch" style="margin: 1rem" fxLayoutGap="20px" fxLayout.lt-md="column">
+  <mat-card fxFlex="40" fxFlex.lt-md="100">
+    <mat-card-content>
+      <h3>If you think your farm is infested with pests, you can now check by simply uploading a photo</h3><br>
+      <div>
+        <div style="font-size: 1.2rem; margin-bottom: 1rem;">Steps: </div>
+        <div>1. Upload a close up photo of the plant you suspect having a pest infection or disease</div>
+        <div>2. The program will them detect if the plant is infected or not</div>
+        <div>3. In addition, you will get remedies for the same disease</div>
       </div>
-      <div *ngIf="loading"><mat-spinner color="accent" mode="determinate" [value] = "loading"></mat-spinner></div>
-    </form>
-    <div style="margin: 2rem; padding: 2rem; font-size: 1.2rem" *ngIf="pest"> Your plant is infected with <i style="font-weight: bold;">{{ pest }}</i> </div>
-  </div>
+      <form *ngIf="!pest" style="margin: 2.5rem 1rem">
+        <div *ngIf="!loading">
+          <input type="file" (change)="onFileSelected($event)" multiple="false">
+          <button mat-raised-button type="button" (click)="onUpload()" color="accent" [disabled] = "!selectedFile">Upload</button>
+        </div>
+        <!--<div *ngIf="loading.getValue()"><mat-spinner color="accent" mode="determinate" [value] = "loading"></mat-spinner></div>-->
+        <div *ngIf="loading"><mat-spinner color="accent"></mat-spinner></div>
+      </form>
+      <div style="margin: 2rem; font-size: 1.2rem" *ngIf="pest">
+        <span>Your plant is infected with</span>
+        <div style="font-weight: bold;">{{ pest }}</div>
+      </div>
 
-  <div fxFlex="55" style="border-left: 1px solid black; padding: 0 2rem;">
-    <h3>Pests</h3>
+    </mat-card-content>
+  </mat-card>
+
+  <div fxFlex="55" fxFlex.lt-md="100">
+    <mat-card>
+      <mat-card-content>
+        <h4 style="text-align: center">Pest</h4><hr>
+        <mat-form-field appearance="outline">
+          <input type="text" placeholder="Search" aria-label="Number" matInput [formControl]="pestSearch" [matAutocomplete]="auto">
+          <mat-autocomplete #auto="matAutocomplete">
+            <mat-option *ngFor="let option of filteredOptions | async" [value]="option" (click)="setPest(option)">{{option}}</mat-option>
+          </mat-autocomplete>
+        </mat-form-field>
+        <div>
+          <h3>{{ currentPest.name }}</h3>
+          <div><span class="pest-data-label">Scientific name:</span> {{ currentPest.scientific_name }}</div>
+          <div><span class="pest-data-label">Type: </span>{{ currentPest.type }}</div>
+          <div class="pest-data-label">Symptoms:</div>
+          <div>{{ currentPest.symptoms }}</div>
+          <div class="pest-data-label">Biological Control</div>
+          <div>{{ currentPest.biological_control }}</div>
+          <div class="pest-data-label">Chemical Control</div>
+          <div>{{ currentPest.chemical_control }}</div>
+          <div class="pest-data-label">Preventive Measures</div>
+          <ul>
+            <li *ngFor="let preventive_measure of currentPest.preventive_measures">{{ preventive_measure }}</li>
+          </ul>
+          <div>
+            <mat-grid-list cols="2">
+              <mat-grid-tile *ngFor="let image of currentPest.images">
+                <img [src]="image" alt="pest-image" (error)="imageError($event)">
+              </mat-grid-tile>
+            </mat-grid-list>
+          </div>
+        </div>
+        <!--<div style="text-align: center; margin: 1rem">
+          <a (click)="prevPest()">Prev</a> | <a (click)="nextPest()">Next</a>
+        </div>-->
+
+      </mat-card-content>
+    </mat-card>
   </div>
 
 </div>

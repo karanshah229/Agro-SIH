@@ -19,7 +19,7 @@ export class ProfileCompletionComponent implements OnInit {
 
   lat: number;
   lng: number;
-  soilTypes: string[] = ["Clayey", "Sandy", "Silty", "Peaty", "Chalky", "Loamy", "Silts", "Gravel", "Friable", "Red Grey Yellow Loams", "Black Clay", "Alluvial", "Laterite", "Alkaline", "Saline"];
+  soilTypes: string[] = ["Loam", "Gravel", "Clayey", "Black", "Red", "Grey", "Yellow", "Sandy", "Well drained", "Deep", "Friable", "Saline", "Alkaline"];
   polygonAreaInKms:number;
   polygonPoints:any;
   @ViewChild("search", {static: false}) public searchElementRef: ElementRef;
@@ -102,7 +102,7 @@ export class ProfileCompletionComponent implements OnInit {
         lat: [null, [Validators.required]],
         lng: [null, [Validators.required]],
       }),
-      soilType: ['', [Validators.required]],
+      soilType: [[''], [Validators.required]],
       land_area: [null, [Validators.required, Validators.min(0), Validators.max(1000000000)]],
       land_area_unit: ['', [Validators.required]]
     });

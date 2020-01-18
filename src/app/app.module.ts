@@ -16,7 +16,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProfileCompletionComponent } from './profile-completion/profile-completion.component';
 
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatInputModule, MatMenuModule, MatCardModule, MatProgressSpinnerModule, MatChipsModule } from '@angular/material';
+import { MatInputModule, MatMenuModule, MatCardModule, MatProgressSpinnerModule, MatChipsModule, MatGridListModule, MatAutocomplete, MatAutocompleteModule } from '@angular/material';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatSelectModule } from '@angular/material/select';
@@ -62,6 +62,7 @@ import { ClimateComponent } from './dashboard/climate/climate.component';
       apiKey: environment.googleMapsKey,
       libraries: ["places"]
     }),
+    MatGridListModule,
     MatFormFieldModule,
     MatInputModule,
     MatButtonModule,
@@ -75,7 +76,8 @@ import { ClimateComponent } from './dashboard/climate/climate.component';
     MatMenuModule,
     MatCardModule,
     MatProgressSpinnerModule,
-    MatChipsModule
+    MatChipsModule,
+    MatAutocompleteModule
   ],
   providers: [],
   bootstrap: [AppComponent]

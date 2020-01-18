@@ -1,0 +1,17 @@
+mat-list-item:hover {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+mat-card {
+  overflow-y: auto;
+  max-height: 57vh;
+}
+
+.pest-data-label {
+  font-weight: 700;
+  margin: 5px 0
+}
+
+a { cursor: pointer }
+a:hover { color: dodgerblue }
